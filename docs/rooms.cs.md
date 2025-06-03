@@ -1,0 +1,81 @@
+# **Pokoje**
+
+## Jednolůžkové pokoje
+
+**Velikost pokoje:** 15 m²
+
+Tento pokoj je vybaven TV a samostatnou postelí. Možnost dodání jedné přistýlky.
+
+**Vybavení pokoje:** TV, psací stůl, toaleta, koupelna, ručníky, povlečení, výhled do vnitřního dvora
+
+**Bezplatné Wi-Fi** je k dispozici ve všech pokojích.
+
+<div class="gallery">
+
+<figure>
+  <img src="https://placehold.co/400" alt="Pohled na hotel">
+  <figcaption>Pohled na hotel</figcaption>
+</figure>
+
+<figure>
+  <img src="https://placehold.co/400" alt="Pokoj pro hosty">
+  <figcaption>Pokoj pro hosty</figcaption>
+</figure>
+
+<figure>
+  <img src="https://placehold.co/400" alt="Wellness">
+  <figcaption>Wellness</figcaption>
+</figure>
+
+<figure>
+  <img src="https://placehold.co/400" alt="Restaurace">
+  <figcaption>Restaurace</figcaption>
+</figure>
+
+<figure>
+  <img src="https://placehold.co/400" alt="Loby">
+  <figcaption>Loby</figcaption>
+</figure>
+
+</div>
+
+## Dvoulůžkové pokoje
+
+**Velikost pokoje:** 20 m²
+
+Tento pokoj je vybaven TV a **1 manželskou postelí** nebo **2 samostatnými postelemi**.
+
+**Vybavení pokoje standard:** TV, psací stůl, toaleta, koupelna, ručníky, povlečení, výhled do vnitřního dvora
+
+**Vybavení pokoje komfort:** Smart TV se streamovacími kanály Netflix, Amazon Prime a Disney+, lednice, rychlovarná konvice, souprava pro přípravu kávy a čaje, psací stůl, toaleta, koupelna, ručníky, koupelnové doplňky, pantofle, povlečení, výhled do vnitřního dvora
+
+**Bezplatné Wi-Fi** je k dispozici ve všech pokojích.
+
+<div class="gallery">
+
+<figure>
+  <img src="https://placehold.co/400" alt="Pohled na hotel">
+  <figcaption>Pohled na hotel</figcaption>
+</figure>
+
+<figure>
+  <img src="https://placehold.co/400" alt="Pokoj pro hosty">
+  <figcaption>Pokoj pro hosty</figcaption>
+</figure>
+
+<figure>
+  <img src="https://placehold.co/400" alt="Wellness">
+  <figcaption>Wellness</figcaption>
+</figure>
+
+<figure>
+  <img src="https://placehold.co/400" alt="Restaurace">
+  <figcaption>Restaurace</figcaption>
+</figure>
+
+<figure>
+  <img src="https://placehold.co/400" alt="Loby">
+  <figcaption>Loby</figcaption>
+</figure>
+
+</div>

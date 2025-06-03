@@ -1,0 +1,76 @@
+# **Hotel und Service**
+
+<div style="text-align: center;">
+<iframe src="https://www.google.com/maps/embed?pb=!4v1748877489265!6m8!1m7!1sCAoSLEFGMVFpcFBMdDduRnc3SE1NbkVDZzRfN3VIeHJrSjhXOFY2MXo4dDlxcUdi!2m2!1d50.07592187760594!2d14.44256056896022!3f101.03!4f-2.4399999999999977!5f0.4000000000000002" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+</div>
+
+Das malerische, drei-Sterne **Hotel Claris** liegt in einem ruhigen Innenhof im bekannten Prager Stadtteil Královské Vinohrady im Zentrum von Prag. Vom Hotel aus erreichen Sie in wenigen Minuten zu Fuß den Platz Náměstí Míru mit der U-Bahnstation Linie A „Náměstí Míru“ – nur eine Station von der Václavské náměstí (Wenzelsplatz) entfernt. Außerdem gibt es eine Straßenbahnhaltestelle, von der aus Sie in wenigen Minuten ins historische Stadtzentrum gelangen.
+
+**In der Umgebung des Hotels** befinden sich zahlreiche Restaurants, Weinstuben und Cafés. Direkt gegenüber dem Hotel liegt der Vinohradský Pavilon – eine Einkaufsgalerie für Inneneinrichtung mit Café und Albert-Supermarkt. Der nahegelegene, weitläufige Park Riegrovy sady ist ein beliebter Erholungsort mit herrlichem Blick auf Prag.
+
+**Das Hotel bietet 24 Zimmer in den Kategorien Standard und Komfort an.**
+
+Alle Zimmer befinden sich in einem **ruhigen Gebäudeteil**, abseits der Hauptstraße, mit Blick auf den ruhigen Innenhof oder Garten.
+
+---
+
+### Ausstattung
+
+**Alle Zimmer sind ausgestattet mit:**
+
+- Badezimmer (Badewanne oder Dusche)  
+- Fernseher mit Satellitenempfang und Flachbildschirm  
+- Haartrockner  
+- Schreibtisch  
+- WLAN-Internetzugang  
+
+### Komfortzimmer Ausstattung
+
+**In den Komfortzimmern bieten wir zusätzlich:**
+
+- Smart-TV mit Streamingdiensten Amazon Prime und Disney+  
+- Kühlschrank  
+- Wasserkocher  
+- Kaffee- und Teezubehör  
+- Badezimmerartikel (Einmalseifen, Shampoo, Körpercreme und Taschentücher)  
+- Hausschuhe  
+
+### Weitere wichtige Informationen
+
+**Das Hotel ist komplett rauchfrei.**
+
+**Das Frühstück**, das nicht im Zimmerpreis enthalten ist, kann gegen Aufpreis täglich **von 7:30 bis 10:00 Uhr** im Atrium mit Glasdach eingenommen werden. Bei früherer Abreise richten wir uns gerne nach Ihren Wünschen und passen die Frühstückszeit an.
+
+**Kaffee** steht den Gästen den ganzen Tag an der Rezeption **kostenlos** zur Verfügung.
+
+**Die Rezeption** ist täglich **von 8 bis 22 Uhr geöffnet**, freitags und samstags rund um die Uhr.
+
+Die Zimmer stehen den Gästen am Anreisetag ab 14 Uhr zur Verfügung und müssen am Abreisetag bis 10 Uhr geräumt werden (nach Absprache sind auch andere Zeiten möglich).
+
+Gepäckraum für Gäste vorhanden.
+
+**Haustiere sind im Hotel nicht erlaubt.**
+
+**Parken im Hof** kostet 350 CZK/Tag und sollte im Voraus reserviert werden. Die Zufahrt ist auf eine Breite von 210 cm und eine Höhe von 230 cm beschränkt. Das Parken ist nicht bewacht.
+
+---
+
+### Weitere Dienstleistungen
+
+- Verkauf von Zusatzartikeln (Getränke, Drogerieartikel usw.)  
+- Verkauf von Rundfahrten und Ausflügen  
+- Ticketservice für verschiedene Veranstaltungen (Ausstellungen, Theater, Konzerte usw.)  
+- Transfer vom/zum Flughafen (Reservierung erforderlich)  
+
+### Umgebung
+
+**In der Nähe des Hotels Claris finden Sie:**
+
+- **Náměstí Míru** (350 m) mit der dominanten **Kirche St. Ludmila**, dem schönen Gebäude des Theaters na Vinohradech und dem Nationalhaus. Auf dem Platz und in der Umgebung gibt es zahlreiche Restaurants, Weinstuben und Cafés, die im Sommer oft auch Außenplätze anbieten.  
+- **Náměstí Jiřího z Poděbrad** (700 m) mit der Kirche des Heiligsten Herzens Jesu vom berühmten slowenischen Architekten J. Plečnik. Der Platz liegt an der Grenze von Královské Vinohrady und dem legendären Stadtteil Žižkov und ist das Zentrum des lokalen Lebens. Hier finden fast täglich Märkte mit saisonalen Produkten statt, und es gibt viele Weinstuben und Cafés mit Außenplätzen.  
+- **Park Riegrovy sady** (650 m) – ein bekannter und beliebter Park mit schöner Aussicht auf die Prager Burg, Biergarten und Laufstrecke.  
+- **Park Havlíčkovy sady** (750 m) mit dem **Weinpavillon**, ein weitläufiger Park, ideal für Picknicks und Weinverkostungen. Besonders Weinliebhaber werden hier auf ihre Kosten kommen. Vom Pavillon aus können Sie Prag bewundern und Wein vom lokalen Weinberg genießen.  
+- **Vinohradský Pavilon** (10 m) – ein Jugendstilgebäude der ehemaligen Markthalle direkt gegenüber dem Hotel, mit einer Galerie für Inneneinrichtung, Café und Albert-Supermarkt.  
+- **Einkaufszentrum Flora** (1,4 km oder 3 Straßenbahnstationen) mit Geschäften internationaler Marken und einem IMAX-Kino.  
+
+Weitere Informationen erhalten Sie gerne persönlich oder über [Kontakt](contact.md).

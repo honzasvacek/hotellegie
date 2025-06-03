@@ -1,0 +1,29 @@
+# **Parken**
+
+**Parken ist möglich** im Hof des Hotels gegen eine Gebühr von 15 €/Tag.
+
+Das Einfahrtstor ist 2,1 Meter breit und 2,3 Meter hoch.
+
+Für Reservierungen schreiben Sie bitte an folgende E-Mail-Adresse: **reservation@petrs.cz.**
+
+Wir bestätigen das Parken im Hotelhof gegen eine Gebühr von 15 EUR/Tag.
+
+Die Einfahrt zum Parkplatz befindet sich in der Slezská 28.
+
+Bitte klingeln Sie bei der Rezeption bei der Ankunft. Wir werden das Tor für Sie öffnen. Bitte haben Sie Geduld, das Öffnen dauert einen Moment.
+
+Die Bezahlung erfolgt an der Rezeption. [Kontaktieren Sie uns](contact.md)
+
+<div class="gallery">
+
+<figure>
+  <img src="https://placehold.co/400" alt="Blick auf das Hotel">
+  <figcaption>Parken1</figcaption>
+</figure>
+
+<figure>
+  <img src="https://placehold.co/400" alt="Gästezimmer">
+  <figcaption>Parken2</figcaption>
+</figure>
+
+</div>

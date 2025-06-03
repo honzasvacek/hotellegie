@@ -1,0 +1,10 @@
+/* Hover Zoom for images */
+.md-typeset img:not(.emoji) {
+  transition: transform 0.3s ease;
+  cursor: zoom-in;
+}
+
+.md-typeset img:not(.emoji):hover {
+  transform: scale(1.05); /* Adjust for stronger zoom */
+  z-index: 2;
+}

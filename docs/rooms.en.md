@@ -1,0 +1,81 @@
+# **Rooms**
+
+## Single Rooms
+
+**Room size:** 15 m²
+
+This room is equipped with a TV and a single bed. An extra bed can be provided.
+
+**Room amenities:** TV, desk, toilet, bathroom, towels, linens, view of the inner courtyard
+
+**Free Wi-Fi** is available in all rooms.
+
+<div class="gallery">
+
+<figure>
+  <img src="https://placehold.co/400" alt="View of the hotel">
+  <figcaption>View of the hotel</figcaption>
+</figure>
+
+<figure>
+  <img src="https://placehold.co/400" alt="Guest room">
+  <figcaption>Guest room</figcaption>
+</figure>
+
+<figure>
+  <img src="https://placehold.co/400" alt="Wellness">
+  <figcaption>Wellness</figcaption>
+</figure>
+
+<figure>
+  <img src="https://placehold.co/400" alt="Restaurant">
+  <figcaption>Restaurant</figcaption>
+</figure>
+
+<figure>
+  <img src="https://placehold.co/400" alt="Lobby">
+  <figcaption>Lobby</figcaption>
+</figure>
+
+</div>
+
+## Double Rooms
+
+**Room size:** 20 m²
+
+This room is equipped with a TV and **1 double bed** or **2 single beds**.
+
+**Standard amenities:** TV, desk, toilet, bathroom, towels, linens, view of the inner courtyard
+
+**Comfort amenities:** Smart TV with streaming channels Netflix, Amazon Prime, and Disney+, fridge, electric kettle, coffee and tea set, desk, toilet, bathroom, towels, bathroom accessories, slippers, linens, view of the inner courtyard
+
+**Free Wi-Fi** is available in all rooms.
+
+<div class="gallery">
+
+<figure>
+  <img src="https://placehold.co/400" alt="View of the hotel">
+  <figcaption>View of the hotel</figcaption>
+</figure>
+
+<figure>
+  <img src="https://placehold.co/400" alt="Guest room">
+  <figcaption>Guest room</figcaption>
+</figure>
+
+<figure>
+  <img src="https://placehold.co/400" alt="Wellness">
+  <figcaption>Wellness</figcaption>
+</figure>
+
+<figure>
+  <img src="https://placehold.co/400" alt="Restaurant">
+  <figcaption>Restaurant</figcaption>
+</figure>
+
+<figure>
+  <img src="https://placehold.co/400" alt="Lobby">
+  <figcaption>Lobby</figcaption>
+</figure>
+
+</div>

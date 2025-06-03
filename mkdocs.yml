@@ -1,0 +1,136 @@
+site_name: Hotel CLARIS
+site_url: https://example.com
+theme:
+  name: material
+  language: en
+  font: 
+    text: Merriweather Sans
+  logo: assets/peters.png
+  favicon: assets/hotelExampleFavicon.ico
+  features:
+    - navigation.instant.progress
+    - navigation.tracking
+    - navigation.tabs
+    - navigation.sections #možná odebrat
+    - toc.follow
+    - navigation.top
+    - search.suggest
+  palette:
+    # Palette toggle for light mode
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      toggle:
+        icon: material/weather-night
+        name: Switch to dark mode
+      primary: indigo
+      accent: light blue
+
+    # Palette toggle for dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      toggle:
+        icon: material/weather-sunny
+        name: Switch to light mode
+      primary: pink
+      accent: deep purple
+
+    # Light Mode
+    - scheme: default
+      toggle:
+        icon: material/weather-night
+        name: Switch to dark mode
+      primary: indigo
+      accent: light blue
+
+      # Dark Mode
+    - scheme: slate
+      toggle:
+        icon: material/weather-sunny
+        name: Switch to light mode
+      primary: pink
+      accent: deep purple
+
+extra_css:
+  - assets/stylesheets/imagezoom.css
+  - assets/stylesheets/gallery.css
+
+markdown_extensions:
+  - attr_list
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+  - md_in_html
+  - pymdownx.blocks.caption
+  - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true
+  - admonition
+  - pymdownx.details
+
+
+copyright: 'Hotel Claris, Slezská 26, Praha 2 | +420 775 712 882 | E-mail: reservation@petrs.cz | Hotely Petr''s: hotellegie.cz, residenceabacta.cz, pension-apartment.cz'
+extra:
+  checkin_time: "14:00"
+  checkout_time: "11:00"
+  hotel_name: "Hotel"
+  social:
+    - icon: fontawesome/brands/facebook
+      link: https://www.facebook.com/PragueMarriottHotel/
+    - icon: fontawesome/brands/instagram
+      link: https://www.instagram.com/hotel/
+    - icon: fontawesome/solid/paper-plane
+      link: mailto:<reservation@petrs.cz>
+  generator: false
+  consent:
+    title: Souhlas s cookies
+    description: >-
+
+      Používáme soubory cookie a sledování návštěvnosti pro zlepšení fungování našich stránek. 
+      Abychom mohli obsah přizpůsobit tvým preferencím, používáme také volitelné sledování 
+      pro účely analýzy a marketingu. To znamená lepší obsah a nabídky. 
+    actions: 
+      - accept
+      - reject
+      - manage
+    cookies:
+      analytics:
+        name: Google Analytics
+        checked: true
+      github:
+        name: Github
+        checked: true
+
+plugins:
+  - glightbox:
+      effect: zoom
+      slide_effect: zoom
+      zoomable: true
+      draggable: true
+  - search
+  - macros
+  - i18n:
+      docs_structure: suffix
+      languages:
+        - locale: en
+          default: true
+          name: English
+          build: true
+        - locale: cs
+          name: Česky
+          build: true
+        - locale: fr
+          name: Français
+          build: true
+        - locale: ru
+          name: Русский
+          build: true
+        - locale: it
+          name: Italiano
+          build: true
+        - locale: de
+          name: Deutsch
+          build: true
+        - locale: es
+          name: Español
+          build: true
+
