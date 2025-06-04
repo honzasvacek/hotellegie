@@ -1,4 +1,11 @@
+---
+hide:
+  - navigation
+---
+
 # **Kontakty**
+
+--8<-- "booking-form.html"
 
 <h2 style="text-align: center; font-weight: bold;">Hotel Claris</h2>
 
