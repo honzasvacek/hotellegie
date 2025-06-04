@@ -1,3 +1,8 @@
+<div class="reservation-banner">
+  <img src="/images/booking-icon.svg" alt="Rezervace" />
+  <a href="/reservation-form" class="banner-link">Zarezervujte si pobyt nyní</a>
+</div>
+
 # **Home**
 
 ## Welcome to Hotel CLARIS!

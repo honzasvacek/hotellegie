@@ -1,0 +1,88 @@
+.reservation-fab {
+  position: fixed;
+  bottom: 2vh; /* 5% of viewport height from bottom */
+  right: 3vw;  /* 3% of viewport width from right */
+  background: linear-gradient(45deg, #ff4081 0%, #ff6b9d 25%, #c2185b 50%, #ff4081 75%, #ff6b9d 100%);
+  background-size: 400% 400%;
+  color: white;
+  padding: 14px 22px;
+  border-radius: 50px;
+  text-decoration: none;
+  font-weight: bold;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+  z-index: 9999;
+  transition: all 0.3s ease;
+  
+  /* Glowing effect */
+  animation: 
+    pulse-glow-fab 2s ease-in-out infinite,
+    wave-gradient 4s ease-in-out infinite;
+}
+
+/* Pulsing glow animation */
+@keyframes pulse-glow-fab {
+  0%, 100% {
+    box-shadow: 
+      0 4px 8px rgba(0,0,0,0.2),
+      0 0 0 0 rgba(255, 64, 129, 0.7);
+  }
+  50% {
+    box-shadow: 
+      0 6px 20px rgba(255, 64, 129, 0.4),
+      0 0 0 10px rgba(255, 64, 129, 0);
+  }
+}
+
+/* Wavy gradient animation */
+@keyframes wave-gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  25% {
+    background-position: 100% 25%;
+  }
+  50% {
+    background-position: 100% 75%;
+  }
+  75% {
+    background-position: 0% 100%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.reservation-fab:hover {
+  background: linear-gradient(45deg, #e91e63 0%, #f06292 25%, #ad1457 50%, #e91e63 75%, #f06292 100%);
+  transform: scale(1.05);
+  animation: 
+    pulse-glow-fab-hover 1s ease-in-out infinite,
+    wave-gradient-fast 1.5s ease-in-out infinite;
+}
+
+/* Faster glow on hover */
+@keyframes pulse-glow-fab-hover {
+  0%, 100% {
+    box-shadow: 
+      0 6px 20px rgba(233, 30, 99, 0.4),
+      0 0 0 0 rgba(233, 30, 99, 0.8);
+  }
+  50% {
+    box-shadow: 
+      0 8px 25px rgba(233, 30, 99, 0.6),
+      0 0 0 15px rgba(233, 30, 99, 0);
+  }
+}
+
+/* Faster wave animation on hover */
+@keyframes wave-gradient-fast {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}

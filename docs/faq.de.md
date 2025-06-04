@@ -1,3 +1,8 @@
+<div class="hero-reservation">
+  <img src="/images/hotel-hero.jpg" alt="Hotel Claris">
+  <a href="/reservation-form" class="hero-button">Rezervujte si pobyt</a>
+</div>
+
 # **Häufig gestellte Fragen**
 
 ## Wann ist der Check-in und Check-out?

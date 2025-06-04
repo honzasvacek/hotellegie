@@ -53,6 +53,8 @@ theme:
 extra_css:
   - assets/stylesheets/imagezoom.css
   - assets/stylesheets/gallery.css
+  - assets/stylesheets/reservation.css
+  - assets/stylesheets/reservationform.css
 
 markdown_extensions:
   - attr_list

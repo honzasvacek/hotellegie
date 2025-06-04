@@ -1,0 +1,137 @@
+.booking-form-container {
+    font-family: 'Segoe UI', Roboto, sans-serif;
+    max-width: 440px;
+    margin: 1rem auto;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    padding: 1rem 1.2rem;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.04);
+    font-size: 0.85rem;
+  }
+
+  .booking-form-container h2 {
+    text-align: center;
+    margin-bottom: 0.8rem;
+    font-size: 1.1rem;
+    color: #2c3e50;
+  }
+
+  .booking-form-container label {
+    display: block;
+    margin-bottom: 0.25rem;
+    font-weight: 500;
+    color: #333;
+  }
+
+  .booking-form-container input,
+  .booking-form-container select {
+    width: 100%;
+    padding: 0.35rem 0.6rem;
+    margin-bottom: 0.6rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 0.85rem;
+    box-sizing: border-box;
+  }
+
+  .booking-form-container input[type="submit"] {
+    background-color: #0077cc;
+    color: white;
+    font-weight: 600;
+    cursor: pointer;
+    border: none;
+    padding: 0.5rem;
+    border-radius: 5px;
+    transition: background-color 0.2s ease;
+    font-size: 0.9rem;
+  }
+
+  .booking-form-container input[type="submit"]:hover {
+    background-color: #005fa3;
+  }
+
+  .inline-fields {
+    display: flex;
+    justify-content: space-between;
+    gap: 0.5rem;
+  }
+
+  .inline-fields .form-group {
+    flex: 1;
+  }
+
+  @media (max-width: 500px) {
+    .inline-fields {
+      flex-direction: column;
+    }
+  }
+
+  .promo-sticker {
+  position: absolute;
+  top: -30px;
+  right: -30px;
+  background-color: #e74c3c;
+  color: #fff;
+  font-size: 0.5rem;
+  font-weight: 600;
+  padding: 0.4rem;
+  border-radius: 50%;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.15), 6px 6px 0px #c0392b;
+  z-index: 10;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 90px;
+  width: 90px;
+  text-align: center;
+  box-sizing: border-box;
+  line-height: 1.1;
+}
+
+
+.booking-form-container {
+  font-family: 'Segoe UI', Roboto, sans-serif;
+  background-color: #f9f9f9;
+  border: 1px solid #ddd;
+  padding: 1rem 1.2rem;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.04);
+  font-size: 0.85rem;
+  position: relative;
+}
+
+#bookingFormWrapper {
+  position: fixed;
+  top: 150px;
+  left: 0;
+  width: 340px;
+  padding: 0 10px;
+  z-index: 1000;
+}
+
+/* Shift the main content to the right to make room */
+@media (min-width: 801px) {
+  .md-main {
+    margin-left: 360px;
+  }
+}
+
+/* Reset for small screens */
+@media (max-width: 1250px) {
+  #bookingFormWrapper {
+    position: static;
+    width: 100%;
+    padding: 0;
+    margin: 1rem auto;
+  }
+
+  .md-main {
+    margin-left: 0;
+  }
+
+  .booking-form-container {
+    margin: 0 auto;
+    max-width: 440px;
+  }
+}
