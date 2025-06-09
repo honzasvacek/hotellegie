@@ -107,11 +107,11 @@ extra:
         checked: true
 
 plugins:
-  - glightbox:
-      effect: zoom
-      slide_effect: zoom
-      zoomable: true
-      draggable: true
+  #- glightbox:
+      #effect: zoom
+      #slide_effect: zoom
+      #zoomable: true
+      #draggable: true
   - search
   - macros
   - i18n:
