@@ -5,8 +5,6 @@ hide:
 
 # **Kontakty**
 
---8<-- "booking-form.html"
-
 <h2 style="text-align: center; font-weight: bold;">Hotel Claris</h2>
 
 ### **Adresa**
@@ -33,3 +31,4 @@ hide:
 <p>E-mail: claris@petrs.cz</p>
 </div>
 
+--8<-- "booking-form.cs.html"

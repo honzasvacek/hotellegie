@@ -1,7 +1,7 @@
-<div class="hero-reservation">
-  <img src="/images/hotel-hero.jpg" alt="Hotel Claris">
-  <a href="/reservation-form" class="hero-button">Rezervujte si pobyt</a>
-</div>
+---
+hide:
+  - navigation
+---
 
 # **Häufig gestellte Fragen**
 
@@ -16,3 +16,5 @@
 
 ## Sind Haustiere erlaubt?
 - Leider nicht.
+
+--8<-- "booking-form.de.html"

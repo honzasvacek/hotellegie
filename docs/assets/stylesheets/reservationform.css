@@ -78,7 +78,7 @@
   padding: 0.4rem;
   border-radius: 50%;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.15), 6px 6px 0px #c0392b;
-  z-index: 10;
+  z-index: 1;
   display: flex;
   align-items: center;
   justify-content: center;

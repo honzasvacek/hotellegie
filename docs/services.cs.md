@@ -5,40 +5,6 @@ hide:
 
 # **Hotel a služby**
 
-<div id="bookingFormWrapper">
-<div class="booking-form-container">
-  <div class="promo-sticker">Use promocode PRAHAVIP5 for a 5% discount</div>
-  <h2>Rezervace pokoje</h2>
-  <form id="hotelBookingForm">
-    <label for="arrivalDate">Arrival Date:</label>
-    <input type="date" id="arrivalDate" name="arrivalDate" required><br>
-
-    <label for="endDate">Departure Date:</label>
-    <input type="date" id="endDate" name="endDate" required><br>
-
-    <div class="inline-fields">
-      <div class="form-group">
-        <label for="adults">Adults</label>
-        <input type="number" id="adults" name="selectedAdultCount" min="1" max="10" value="2" required>
-      </div>
-      <div class="form-group">
-        <label for="children">Children</label>
-        <input type="number" id="children" name="selectedChildCount" min="0" max="10" value="0">
-      </div>
-      <div class="form-group">
-        <label for="infants">Infants</label>
-        <input type="number" id="infants" name="selectedInfantCount" min="0" max="5" value="0">
-      </div>
-    </div>
-
-    <label for="promoCode">Promo Code (optional):</label>
-    <input type="text" id="promoCode" name="promoCode"><br>
-
-    <input type="submit" value="Search Availability">
-  </form>
-</div>
-</div>
-
 <div style="text-align: center;">
 <iframe src="https://www.google.com/maps/embed?pb=!4v1748877489265!6m8!1m7!1sCAoSLEFGMVFpcFBMdDduRnc3SE1NbkVDZzRfN3VIeHJrSjhXOFY2MXo4dDlxcUdi!2m2!1d50.07592187760594!2d14.44256056896022!3f101.03!4f-2.4399999999999977!5f0.4000000000000002" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
 </div>
@@ -128,3 +94,5 @@ Hostům je k dispozici zavazadlová místnost.
 - **Nákupní centrum Flora** (1,4 km nebo 3 zastávky tramvají), nabízí obchody světových značek a multikino IMAX.
 
 Více informací vám rádi poskytneme osobně nebo na [kontakt](contact.md).
+
+--8<-- "booking-form.cs.html"

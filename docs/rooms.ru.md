@@ -1,3 +1,8 @@
+---
+hide:
+  - navigation
+---
+
 # **Номера**
 
 ## Одноместные номера
@@ -79,3 +84,5 @@
 </figure>
 
 </div>
+
+--8<-- "booking-form.ru.html"

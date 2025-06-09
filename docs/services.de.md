@@ -1,3 +1,8 @@
+---
+hide:
+  - navigation
+---
+
 # **Hotel und Service**
 
 <div style="text-align: center;">
@@ -74,3 +79,5 @@ Gepäckraum für Gäste vorhanden.
 - **Einkaufszentrum Flora** (1,4 km oder 3 Straßenbahnstationen) mit Geschäften internationaler Marken und einem IMAX-Kino.  
 
 Weitere Informationen erhalten Sie gerne persönlich oder über [Kontakt](contact.md).
+
+--8<-- "booking-form.de.html"

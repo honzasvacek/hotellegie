@@ -1,3 +1,8 @@
+---
+hide:
+  - navigation
+---
+
 # **Camere**
 
 ## Camere singole
@@ -79,3 +84,5 @@ Questa camera è dotata di TV e **1 letto matrimoniale** o **2 letti singoli**.
 </figure>
 
 </div>
+
+--8<-- "booking-form.it.html"

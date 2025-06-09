@@ -1,3 +1,8 @@
+---
+hide:
+  - navigation
+---
+
 # **Galerie**
 
 <style>
@@ -50,3 +55,5 @@
 
 </div>
 ---
+
+--8<-- "booking-form.cs.html"

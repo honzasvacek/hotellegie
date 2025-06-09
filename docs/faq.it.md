@@ -1,3 +1,8 @@
+---
+hide:
+  - navigation
+---
+
 # **Domande Frequenti**
 
 ## Quali sono gli orari di check-in e check-out?
@@ -11,3 +16,5 @@
 
 ## Sono ammessi gli animali domestici?
 - Purtroppo no.
+
+--8<-- "booking-form.it.html"

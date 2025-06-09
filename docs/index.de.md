@@ -1,6 +1,13 @@
+---
+hide:
+  - navigation
+---
+
 # **Startseite**
 
 ## Willkommen im Hotel CLARIS!
+
+--8<-- "booking-form.de.html"
 
 Wir bieten *** Unterkünfte in Einzel- und Doppelzimmern!
 
@@ -14,3 +21,4 @@ Oder kontaktieren Sie uns:
 Wir freuen uns auf Ihren Besuch!
 
 [Kontaktieren Sie uns](contact.de.md)
+

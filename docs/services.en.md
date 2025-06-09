@@ -1,3 +1,8 @@
+---
+hide:
+  - navigation
+---
+
 # **Hotel and Services**
 
 <div style="text-align: center;">
@@ -74,3 +79,5 @@ Luggage storage is available for guests.
 - **Flora Shopping Center** (1.4 km or 3 tram stops) with international brand shops and an IMAX cinema.  
 
 For more information, please contact us or visit our [contact page](contact.md).
+
+--8<-- "booking-form.en.html"

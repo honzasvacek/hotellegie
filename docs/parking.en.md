@@ -1,3 +1,8 @@
+---
+hide:
+  - navigation
+---
+
 # **Parking**
 
 **Parking is available** in the hotel courtyard for a fee of 15 €/day.
@@ -27,3 +32,5 @@ Payment is made at reception. [Contact us](contact.md)
 </figure>
 
 </div>
+
+--8<-- "booking-form.en.html"

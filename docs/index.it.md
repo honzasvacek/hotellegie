@@ -1,6 +1,13 @@
+---
+hide:
+  - navigation
+---
+
 # **Home**
 
 ## Benvenuti all'Hotel CLARIS!
+
+--8<-- "booking-form.it.html"
 
 Offriamo *** sistemazioni in camere singole e doppie!
 

@@ -1,11 +1,13 @@
-<div class="reservation-banner">
-  <img src="/images/booking-icon.svg" alt="Rezervace" />
-  <a href="/reservation-form" class="banner-link">Zarezervujte si pobyt nyní</a>
-</div>
+---
+hide:
+  - navigation
+---
 
 # **Home**
 
 ## Welcome to Hotel CLARIS!
+
+--8<-- "booking-form.en.html"
 
 We offer *** accommodation in double and single rooms!
 

@@ -23,8 +23,8 @@ theme:
       toggle:
         icon: material/weather-night
         name: Switch to dark mode
-      primary: indigo
-      accent: light blue
+      primary: deep orange
+      accent: blue
 
     # Palette toggle for dark mode
     - media: "(prefers-color-scheme: dark)"
@@ -32,7 +32,7 @@ theme:
       toggle:
         icon: material/weather-sunny
         name: Switch to light mode
-      primary: pink
+      primary: orange
       accent: deep purple
 
     # Light Mode
@@ -40,15 +40,15 @@ theme:
       toggle:
         icon: material/weather-night
         name: Switch to dark mode
-      primary: indigo
-      accent: light blue
+      primary: deep orange
+      accent: blue
 
       # Dark Mode
     - scheme: slate
       toggle:
         icon: material/weather-sunny
         name: Switch to light mode
-      primary: pink
+      primary: orange
       accent: deep purple
 
 extra_css:

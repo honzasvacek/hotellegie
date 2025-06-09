@@ -3,44 +3,13 @@ hide:
   - navigation
 ---
 
-# **Rezervace**
+# **Domů**
 
 ## Vítejte v hotelu CLARIS!
 
+--8<-- "booking-form.cs.html"
+
 Nabízíme ubytování kategorie *** ve dvoulůžkových a jednolůžkových pokojích!
-<div id="bookingFormWrapper">
-<div class="booking-form-container">
-  <div class="promo-sticker">Use promocode PRAHAVIP5 for a 5% discount</div>
-  <h2>Rezervace pokoje</h2>
-  <form id="hotelBookingForm">
-    <label for="arrivalDate">Arrival Date:</label>
-    <input type="date" id="arrivalDate" name="arrivalDate" required><br>
-
-    <label for="endDate">Departure Date:</label>
-    <input type="date" id="endDate" name="endDate" required><br>
-
-    <div class="inline-fields">
-      <div class="form-group">
-        <label for="adults">Adults</label>
-        <input type="number" id="adults" name="selectedAdultCount" min="1" max="10" value="2" required>
-      </div>
-      <div class="form-group">
-        <label for="children">Children</label>
-        <input type="number" id="children" name="selectedChildCount" min="0" max="10" value="0">
-      </div>
-      <div class="form-group">
-        <label for="infants">Infants</label>
-        <input type="number" id="infants" name="selectedInfantCount" min="0" max="5" value="0">
-      </div>
-    </div>
-
-    <label for="promoCode">Promo Code (optional):</label>
-    <input type="text" id="promoCode" name="promoCode"><br>
-
-    <input type="submit" value="Search Availability">
-  </form>
-</div>
-</div>
 Sledujte naši speciální nabídku a [rezervujte si pokoje pomocí rezervačního formuláře.](https://www.secure-hotel-booking.com/modification/Hotel-Claris/2V82/en-US)
 
 <a href="/reservation-form" class="reservation-fab" title="Rezervace">Rezervuj nyní!</a>
@@ -52,6 +21,3 @@ Nebo nás kontaktujte na:
 
 Těšíme se na Vaši návštěvu!
 
-<script>
-  
-</script>

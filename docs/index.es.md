@@ -1,6 +1,13 @@
+---
+hide:
+  - navigation
+---
+
 # **Inicio**
 
 ## ¡Bienvenidos al Hotel CLARIS!
+
+--8<-- "booking-form.es.html" 
 
 Ofrecemos *** alojamiento en habitaciones dobles e individuales.
 

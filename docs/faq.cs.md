@@ -1,3 +1,8 @@
+---
+hide:
+  - navigation
+---
+
 # **Často kladené dotazy**
 
 ## Jaká je doba check-inu a check-outu?
@@ -11,3 +16,5 @@
 
 ## Jsou povoleni domácí mazlíčci?
 - Bohužel ne.
+
+--8<-- "booking-form.cs.html"

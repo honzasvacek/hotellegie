@@ -1,3 +1,8 @@
+---
+hide:
+  - navigation
+---
+
 # **Parken**
 
 **Parken ist möglich** im Hof des Hotels gegen eine Gebühr von 15 €/Tag.
@@ -27,3 +32,5 @@ Die Bezahlung erfolgt an der Rezeption. [Kontaktieren Sie uns](contact.md)
 </figure>
 
 </div>
+
+--8<-- "booking-form.de.html"

@@ -1,3 +1,8 @@
+---
+hide:
+  - navigation
+---
+
 # **Questions Fréquemment Posées**
 
 ## Quels sont les horaires d’arrivée et de départ ?
@@ -11,3 +16,5 @@
 
 ## Les animaux sont-ils autorisés ?
 - Malheureusement non.
+
+--8<-- "booking-form.fr.html"

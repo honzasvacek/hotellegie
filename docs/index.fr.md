@@ -1,6 +1,13 @@
+---
+hide:
+  - navigation
+---
+
 # **Accueil**
 
 ## Bienvenue à l'Hôtel CLARIS !
+
+--8<-- "booking-form.fr.html"
 
 Nous proposons *** un hébergement en chambres simples et doubles !
 

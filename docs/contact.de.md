@@ -1,3 +1,8 @@
+---
+hide:
+  - navigation
+---
+
 # **Kontakt**
 
 <h2 style="text-align: center; font-weight: bold;">Hotel Claris</h2>
@@ -25,3 +30,5 @@
 <p>Telefon: +420 608 712 854</p>
 <p>E-Mail: claris@petrs.cz</p>
 </div>
+
+--8<-- "booking-form.de.html"

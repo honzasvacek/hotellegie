@@ -1,3 +1,8 @@
+---
+hide:
+  - navigation
+---
+
 # **Hotel e servizi**
 
 <div style="text-align: center;">
@@ -74,3 +79,5 @@ Le camere sono disponibili per gli ospiti dalle 14 del giorno di arrivo e devono
 - **Centro commerciale Flora** (1,4 km o 3 fermate di tram) con negozi di marchi internazionali e un cinema IMAX.  
 
 Per ulteriori informazioni, non esitate a contattarci o a visitare la nostra [pagina contatti](contact.md).
+
+--8<-- "booking-form.it.html"

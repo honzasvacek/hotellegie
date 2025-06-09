@@ -1,3 +1,8 @@
+---
+hide:
+  - navigation
+---
+
 # **Frequently Asked Questions**
 
 ## What are the check-in and check-out times?
@@ -11,3 +16,5 @@
 
 ## Are pets allowed?
 - Unfortunately, no.
+
+--8<-- "booking-form.en.html"

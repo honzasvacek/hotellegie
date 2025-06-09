@@ -1,3 +1,8 @@
+---
+hide:
+  - navigation
+---
+
 # **Zimmer**
 
 ## Einzelzimmer
@@ -79,3 +84,5 @@ Dieses Zimmer ist mit einem Fernseher und **einem Doppelbett** oder **zwei Einze
 </figure>
 
 </div>
+
+--8<-- "booking-form.de.html"

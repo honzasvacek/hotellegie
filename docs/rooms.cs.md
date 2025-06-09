@@ -1,3 +1,8 @@
+---
+hide:
+  - navigation
+---
+
 # **Pokoje**
 
 ## Jednolůžkové pokoje
@@ -79,3 +84,5 @@ Tento pokoj je vybaven TV a **1 manželskou postelí** nebo **2 samostatnými po
 </figure>
 
 </div>
+
+--8<-- "booking-form.cs.html"

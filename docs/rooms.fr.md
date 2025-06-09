@@ -1,3 +1,8 @@
+---
+hide:
+  - navigation
+---
+
 # **Chambres**
 
 ## Chambres simples
@@ -79,3 +84,5 @@ Cette chambre est équipée d’une télévision et d’**un lit double** ou de 
 </figure>
 
 </div>
+
+--8<-- "booking-form.fr.html"

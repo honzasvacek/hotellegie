@@ -1,3 +1,8 @@
+---
+hide:
+  - navigation
+---
+
 # **Parking**
 
 **Le parking est disponible** dans la cour de l'hôtel moyennant des frais de 15 €/jour.
@@ -27,3 +32,5 @@ Le paiement se fait à la réception. [Contactez-nous](contact.md)
 </figure>
 
 </div>
+
+--8<-- "booking-form.fr.html"

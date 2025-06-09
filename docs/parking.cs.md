@@ -1,3 +1,8 @@
+---
+hide:
+  - navigation
+---
+
 # **Parkování**
 
 **Parkování je možné** ve dvoře hotelu za poplatek 15 €/den.
@@ -27,3 +32,5 @@ Platba na recepci. [Kontaktujte nás](contact.md)
 </figure>
 
 </div>
+
+--8<-- "booking-form.cs.html"

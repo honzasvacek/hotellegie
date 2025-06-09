@@ -1,3 +1,8 @@
+---
+hide:
+  - navigation
+---
+
 # **Habitaciones**
 
 ## Habitaciones individuales
@@ -79,3 +84,5 @@ Esta habitación está equipada con TV y **1 cama doble** o **2 camas individual
 </figure>
 
 </div>
+
+--8<-- "booking-form.es.html"

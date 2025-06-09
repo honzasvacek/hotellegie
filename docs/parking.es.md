@@ -1,3 +1,8 @@
+---
+hide:
+  - navigation
+---
+
 # **Estacionamiento**
 
 **El estacionamiento está disponible** en el patio del hotel por una tarifa de 15 €/día.
@@ -27,3 +32,5 @@ El pago se realiza en la recepción. [Contáctenos](contact.md)
 </figure>
 
 </div>
+
+--8<-- "booking-form.es.html"

@@ -1,3 +1,8 @@
+---
+hide:
+  - navigation
+---
+
 # **Hotel y servicios**
 
 <div style="text-align: center;">
@@ -74,3 +79,5 @@ Hay un servicio de guardaequipajes para los huéspedes.
 - **Centro Comercial Flora** (1,4 km o 3 paradas de tranvía) con tiendas de marcas internacionales y un cine IMAX.  
 
 Para más información, no dude en contactarnos o visitar nuestra [página de contacto](contact.md).
+
+--8<-- "booking-form.es.html"

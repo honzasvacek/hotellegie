@@ -1,3 +1,8 @@
+---
+hide:
+  - navigation
+---
+
 # **Galerie**
 
 <div class="gallery">
@@ -28,3 +33,5 @@
 </figure>
 
 </div>
+
+--8<-- "booking-form.fr.html"

@@ -1,3 +1,8 @@
+---
+hide:
+  - navigation
+---
+
 # **Rooms**
 
 ## Single Rooms
@@ -79,3 +84,5 @@ This room is equipped with a TV and **1 double bed** or **2 single beds**.
 </figure>
 
 </div>
+
+--8<-- "booking-form.en.html"

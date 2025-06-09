@@ -1,3 +1,8 @@
+---
+hide:
+  - navigation
+---
+
 # **Preguntas Frecuentes**
 
 ## ¿Cuál es el horario de check-in y check-out?
@@ -11,3 +16,5 @@
 
 ## ¿Se permiten mascotas?
 - Lamentablemente, no.
+
+--8<-- "booking-form.es.html"

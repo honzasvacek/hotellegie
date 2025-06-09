@@ -1,3 +1,8 @@
+---
+hide:
+  - navigation
+---
+
 # **Parcheggio**
 
 **Il parcheggio è disponibile** nel cortile dell’hotel con un costo di 15 €/giorno.
@@ -27,3 +32,5 @@ Il pagamento avviene alla reception. [Contattaci](contact.md)
 </figure>
 
 </div>
+
+--8<-- "booking-form.it.html"

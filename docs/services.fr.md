@@ -1,3 +1,8 @@
+---
+hide:
+  - navigation
+---
+
 # **Hôtel et services**
 
 <div style="text-align: center;">
@@ -74,3 +79,5 @@ Un service de bagagerie est disponible pour les clients.
 - **Centre commercial Flora** (1,4 km ou 3 arrêts de tram) avec des boutiques de marques internationales et un cinéma IMAX.  
 
 Pour plus d'informations, n'hésitez pas à nous contacter ou à visiter notre [page de contact](contact.md).
+
+--8<-- "booking-form.fr.html"
