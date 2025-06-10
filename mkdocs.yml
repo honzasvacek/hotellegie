@@ -71,8 +71,6 @@ markdown_extensions:
   - pymdownx.details
   - pymdownx.snippets:
       base_path: 'docs/snippets'
-
-
 copyright: 'Hotel Claris, Slezská 26, Praha 2 | +420 775 712 882 | E-mail: reservation@petrs.cz | Hotely Petr''s: hotellegie.cz, residenceabacta.cz, pension-apartment.cz'
 extra:
   checkin_time: "14:00"
