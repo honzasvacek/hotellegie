@@ -11,7 +11,7 @@ hide:
 
 We offer *** accommodation in double and single rooms!
 
-Check out our special offer and [book your rooms using the reservation form.](https://www.secure-hotel-booking.com/modification/Hotel-Claris/2V82/en-US)
+Check out our special offer and book your rooms using the reservation form.
 
 Or contact us at:
 

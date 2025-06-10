@@ -9,8 +9,6 @@ hide:
 <iframe src="https://www.google.com/maps/embed?pb=!4v1748877489265!6m8!1m7!1sCAoSLEFGMVFpcFBMdDduRnc3SE1NbkVDZzRfN3VIeHJrSjhXOFY2MXo4dDlxcUdi!2m2!1d50.07592187760594!2d14.44256056896022!3f101.03!4f-2.4399999999999977!5f0.4000000000000002" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
 </div>
 
-<a href="/reservation-form" class="reservation-fab" title="Rezervace">Rezervuj nyní!</a>
-
 Malebný, tříhvězdičkový **Hotel Claris** je situován do klidného vnitrobloku ve známé pražské čtvrti Královské Vinohrady v centru Prahy. Z hotelu jste za malou chvilku pěšky na náměstí Míru se stanicí metra A „Náměstí Míru“ – jedna stanice metra od Václavského náměstí. Je zde také zastávka tramvají, kterými se dostanete za pár minut do historického centra města.
 
 **V okolí hotelu** se nachází množství restaurací, vináren a kaváren. Přímo naproti hotelu je Vinohradský pavilon – nákupní galerie interiérového designu s kavárnou a supermarketem Albert. Nedaleký rozlehlý park Riegrovy sady je známé odpočinkové místo s překrásným výhledem na Prahu.

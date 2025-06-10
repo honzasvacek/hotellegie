@@ -11,7 +11,7 @@ hide:
 
 Offriamo *** sistemazioni in camere singole e doppie!
 
-Scoprite le nostre offerte speciali e [prenotate la vostra camera tramite il modulo di prenotazione.](https://www.secure-hotel-booking.com/modification/Hotel-Claris/2V82/en-US)
+Scoprite le nostre offerte speciali e prenotate la vostra camera tramite il modulo di prenotazione.
 
 Oppure contattateci:
 

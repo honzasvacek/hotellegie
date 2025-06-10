@@ -1,21 +1,21 @@
 site_name: Hotel CLARIS
 site_url: https://honzasvacek.github.io/hotelclaris
+site_description: "Hotel CLARIS - Luxury accommodation in Prague with modern rooms, excellent service, and convenient location"
 theme:
   name: material
   language: en
   font: 
     text: Merriweather Sans
   logo: assets/peters.png
-  favicon: assets/hotelExampleFavicon.ico
+  favicon: assets/petersFavicon.ico
   features:
     - navigation.instant.progress
     - navigation.tracking
     - navigation.tabs
-    - navigation.sections #možná odebrat
+    - navigation.sections 
     - toc.follow
     - navigation.top
     - search.suggest
-    #- toc.integrate
   palette:
     # Palette toggle for light mode
     - media: "(prefers-color-scheme: light)"
@@ -54,7 +54,6 @@ theme:
 extra_css:
   - assets/stylesheets/imagezoom.css
   - assets/stylesheets/gallery.css
-  - assets/stylesheets/reservation.css
   - assets/stylesheets/reservationform.css
 extra_javascript:
   - javascripts/reservation.js
@@ -80,20 +79,20 @@ extra:
   checkout_time: "11:00"
   hotel_name: "Hotel"
   social:
-    - icon: fontawesome/brands/facebook
-      link: https://www.facebook.com/PragueMarriottHotel/
-    - icon: fontawesome/brands/instagram
-      link: https://www.instagram.com/hotel/
+    - icon: fontawesome/solid/b
+      link: https://www.booking.com/hotel/cz/claris.html?aid=319857&label=claris-eNEeEAOE2qOlu_nAu_efCwS267188002476%3Apl%3Ata%3Ap1%3Ap2%3Aac%3Aap%3Aneg%3Afi%3Atikwd-377898582949%3Alp9062896%3Ali%3Adec%3Adm%3Appccp%3DUmFuZG9tSVYkc2RlIyh9YSoO9VWsFCsb4tJCjD5GdJk&sid=edd1404aecad3a3b4ef718e26b0c6237&dest_id=-553173&dest_type=city&dist=0&group_adults=2&group_children=0&hapos=1&hpos=1&no_rooms=1&req_adults=2&req_children=0&room1=A%2CA&sb_price_type=total&sr_order=popularity&srepoch=1749546477&srpvid=15c540335d6b0214&type=total&ucfs=1&lang=en-us&soz=1&lang_changed=1
+    - icon: fontawesome/solid/s
+      link: https://www.slevomat.cz/podnik/187012-hotel-claris?utm_source=google&utm_medium=cpc&utm_campaign=sea_uns_tcz_cze_all_prf_001-dsa-cestovani-home-podniky&utm_id=2004832775&gad_source=1&gad_campaignid=2004832775&gclid=CjwKCAjwr5_CBhBlEiwAzfwYuP6AgKT2jkGPGeX9P9_ieORiehvZAoYIDfkfzp14tzZz8pXkW6KRsBoCREsQAvD_BwE
+    - icon: fontawesome/solid/h
+      link: https://claris.hotel.cz/?gad_source=1&gad_campaignid=37802770&gclid=CjwKCAjwr5_CBhBlEiwAzfwYuM6mNLwXfrZpcKNabTk_kJce7PKlk_lOS_wNRg5ARQl5pbuGl7bmDxoC7b8QAvD_BwE
     - icon: fontawesome/solid/paper-plane
       link: mailto:<reservation@petrs.cz>
   generator: false
   consent:
-    title: Souhlas s cookies
+    title: Cookie consent
     description: >-
 
-      Používáme soubory cookie a sledování návštěvnosti pro zlepšení fungování našich stránek. 
-      Abychom mohli obsah přizpůsobit tvým preferencím, používáme také volitelné sledování 
-      pro účely analýzy a marketingu. To znamená lepší obsah a nabídky. 
+      We use cookies and visitor tracking to improve the functionality of our website. To customize content to your preferences, we also use optional tracking for analytics and marketing purposes. This means better content and offers.
     actions: 
       - accept
       - reject

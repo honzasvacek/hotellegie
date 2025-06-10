@@ -7,11 +7,11 @@ hide:
 
 ## ¡Bienvenidos al Hotel CLARIS!
 
---8<-- "booking-form.es.html" 
+--8<-- "booking-form.es.html"
 
 Ofrecemos *** alojamiento en habitaciones dobles e individuales.
 
-Consulta nuestra oferta especial y [reserva tu habitación mediante el formulario de reserva.](https://www.secure-hotel-booking.com/modification/Hotel-Claris/2V82/en-US)
+Consulta nuestra oferta especial y reserva tu habitación mediante el formulario de reserva.
 
 O contáctanos:
 

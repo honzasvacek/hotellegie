@@ -11,7 +11,7 @@ hide:
 
 Wir bieten *** Unterkünfte in Einzel- und Doppelzimmern!
 
-Schauen Sie sich unser Sonderangebot an und [buchen Sie Ihr Zimmer über das Reservierungsformular.](https://www.secure-hotel-booking.com/modification/Hotel-Claris/2V82/en-US)
+Schauen Sie sich unser Sonderangebot an und buchen Sie Ihr Zimmer über das Reservierungsformular.
 
 Oder kontaktieren Sie uns:
 

@@ -10,10 +10,7 @@ hide:
 --8<-- "booking-form.cs.html"
 
 Nabízíme ubytování kategorie *** ve dvoulůžkových a jednolůžkových pokojích!
-Sledujte naši speciální nabídku a [rezervujte si pokoje pomocí rezervačního formuláře.](https://www.secure-hotel-booking.com/modification/Hotel-Claris/2V82/en-US)
-
-<a href="/reservation-form" class="reservation-fab" title="Rezervace">Rezervuj nyní!</a>
-
+Sledujte naši speciální nabídku a rezervujte si pokoje pomocí rezervačního formuláře.
 Nebo nás kontaktujte na:
 
 - 📞 **Telefon:** +420 775712882
