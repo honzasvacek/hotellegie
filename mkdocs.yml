@@ -3,6 +3,7 @@ site_url: https://honzasvacek.github.io/hotelclaris
 site_description: "Hotel CLARIS - Luxury accommodation in Prague with modern rooms, excellent service, and convenient location"
 theme:
   name: material
+  custom_dir: overrides
   language: en
   font: 
     text: Merriweather Sans
@@ -55,8 +56,11 @@ extra_css:
   - assets/stylesheets/imagezoom.css
   - assets/stylesheets/gallery.css
   - assets/stylesheets/reservationform.css
+  - assets/stylesheets/hero.css
+  - assets/stylesheets/hotelrooms.css
 extra_javascript:
   - javascripts/reservation.js
+  - javascripts/hero-rotation.js
 markdown_extensions:
   - attr_list
   - pymdownx.emoji:
