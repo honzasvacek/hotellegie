@@ -20,5 +20,5 @@ Oder kontaktieren Sie uns:
 
 Wir freuen uns auf Ihren Besuch!
 
-[Kontaktieren Sie uns](contact.de.md)
+[Kontaktieren Sie uns](05.contact.de.md)
 

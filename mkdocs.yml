@@ -3,6 +3,8 @@ site_url: https://honzasvacek.github.io/hotelclaris
 site_description: "Hotel CLARIS - Luxury accommodation in Prague with modern rooms, excellent service, and convenient location"
 theme:
   name: material
+  icon:
+    alternate: fontawesome/solid/globe
   custom_dir: overrides
   language: en
   font: 
@@ -75,18 +77,14 @@ markdown_extensions:
   - pymdownx.details
   - pymdownx.snippets:
       base_path: 'docs/snippets'
-copyright: 'Hotel Claris, Slezská 26, Praha 2 | +420 775 712 882 | E-mail: reservation@petrs.cz | Hotely Petr''s: hotellegie.cz, residenceabacta.cz, pension-apartment.cz'
+copyright: 'Hotel Claris, Slezská 26, Praha 2 | +420 775 712 882 | E-mail: reservation@petrs.cz | www.hotelclaris.cz'
 extra:
   checkin_time: "14:00"
   checkout_time: "11:00"
   hotel_name: "Hotel"
   social:
-    - icon: fontawesome/solid/b
-      link: https://www.booking.com/hotel/cz/claris.html?aid=319857&label=claris-eNEeEAOE2qOlu_nAu_efCwS267188002476%3Apl%3Ata%3Ap1%3Ap2%3Aac%3Aap%3Aneg%3Afi%3Atikwd-377898582949%3Alp9062896%3Ali%3Adec%3Adm%3Appccp%3DUmFuZG9tSVYkc2RlIyh9YSoO9VWsFCsb4tJCjD5GdJk&sid=edd1404aecad3a3b4ef718e26b0c6237&dest_id=-553173&dest_type=city&dist=0&group_adults=2&group_children=0&hapos=1&hpos=1&no_rooms=1&req_adults=2&req_children=0&room1=A%2CA&sb_price_type=total&sr_order=popularity&srepoch=1749546477&srpvid=15c540335d6b0214&type=total&ucfs=1&lang=en-us&soz=1&lang_changed=1
-    - icon: fontawesome/solid/s
-      link: https://www.slevomat.cz/podnik/187012-hotel-claris?utm_source=google&utm_medium=cpc&utm_campaign=sea_uns_tcz_cze_all_prf_001-dsa-cestovani-home-podniky&utm_id=2004832775&gad_source=1&gad_campaignid=2004832775&gclid=CjwKCAjwr5_CBhBlEiwAzfwYuP6AgKT2jkGPGeX9P9_ieORiehvZAoYIDfkfzp14tzZz8pXkW6KRsBoCREsQAvD_BwE
-    - icon: fontawesome/solid/h
-      link: https://claris.hotel.cz/?gad_source=1&gad_campaignid=37802770&gclid=CjwKCAjwr5_CBhBlEiwAzfwYuM6mNLwXfrZpcKNabTk_kJce7PKlk_lOS_wNRg5ARQl5pbuGl7bmDxoC7b8QAvD_BwE
+    - icon: fontawesome/brands/facebook
+      link: https://www.facebook.com/ClarisHotel
     - icon: fontawesome/solid/paper-plane
       link: mailto:<reservation@petrs.cz>
   generator: false
@@ -120,24 +118,13 @@ plugins:
       languages:
         - locale: en
           default: true
-          name: English
+          name: 🇬🇧 English
           build: true
         - locale: cs
-          name: Česky
+          name: 🇨🇿 Česky
           build: true
-        - locale: fr
-          name: Français
+        - locale: de 
+          name: 🇩🇪 Deutsch
           build: true
-        - locale: ru
-          name: Русский
-          build: true
-        - locale: it
-          name: Italiano
-          build: true
-        - locale: de
-          name: Deutsch
-          build: true
-        - locale: es
-          name: Español
-          build: true
+        
 

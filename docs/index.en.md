@@ -20,4 +20,4 @@ Or contact us at:
 
 We look forward to your visit!
 
-[Contact us](contact.md)
+[Contact us](05.contact.md)
