@@ -179,14 +179,15 @@ hide:
 
 ## Vítejte v hotelu CLARIS!
 
-Nabízíme ubytování kategorie *** ve dvoulůžkových a jednolůžkových pokojích!
+Nabízíme ubytování ve dvoulůžkových a jednolůžkových pokojích v kategorii standard a komfort!
+
 
 Sledujte naši speciální nabídku a rezervujte si pokoje pomocí rezervačního formuláře.
 
 Nebo nás kontaktujte na:
 
-- 📞 **Telefon:** +420 775712882
-- ✉️ **E-mail:** reservation@petrs.cz.
+- :fontawesome-solid-phone: **Telefon:** +420 775712882 ( rezervace) +420 608712854 ( Recepce)
+- :fontawesome-regular-envelope: **E-mail:** reservation@petrs.cz.
 
 Těšíme se na Vaši návštěvu!
 
