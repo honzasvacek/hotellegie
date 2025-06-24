@@ -22,3 +22,5 @@ Wir freuen uns auf Ihren Besuch!
 
 [Kontaktieren Sie uns](05.contact.de.md)
 
+![Alt text](assets/fotky-hotelu/zizkovskavez.jpg)
+

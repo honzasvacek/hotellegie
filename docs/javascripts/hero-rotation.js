@@ -1,8 +1,8 @@
 document.addEventListener("DOMContentLoaded", function () {
   const imageUrls = [
-    '../assets/hotel1.jpg',
-    '../assets/hotel2.jpg',
-    '../assets/hotel3.jpg'
+    '../assets/fotky-hotelu/vchod-recepce.jpg',
+    '../assets/fotky-hotelu/dvojluzko-2-komfort.jpg',
+    '../assets/fotky-hotelu/postel-dalka-komfort.jpg'
   ];
 
   const banner = document.querySelector('.hero-banner');

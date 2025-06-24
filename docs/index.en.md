@@ -20,4 +20,7 @@ Or contact us at:
 
 We look forward to your visit!
 
+![Alt text](assets/fotky-hotelu/zizkovskavez.jpg)
+<img src="assets/fotky-hotelu/zizkovskavez.jpg" alt="Žižkovská věž" width="600" />
+
 [Contact us](05.contact.md)

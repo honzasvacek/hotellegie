@@ -181,6 +181,18 @@ hide:
 
 Nabízíme ubytování ve dvoulůžkových a jednolůžkových pokojích v kategorii standard a komfort!
 
+<!-- START: Room Cards -->
+<section class="featured-rooms-section">
+  <div class="featured-room" onclick="location.href='02.rooms/#jednoluzkove-pokoje'">
+    <img src="/hotelclaris/assets/fotky-hotelu/jednoluzko-komfort2.jpg" alt="Jednolůžkový apartmán">
+    <div class="room-label">Jednolůžkové</div>
+  </div>
+  <div class="featured-room" onclick="location.href='02.rooms/#dvouluzkove-pokoje'">
+    <img src="/hotelclaris/assets/fotky-hotelu/dvojluzko-2-komfort.jpg" alt="Dvoulůžkový apartmán">
+    <div class="room-label">Dvoulůžkové</div>
+  </div>
+</section>
+<!-- END: Room Cards -->
 
 Sledujte naši speciální nabídku a rezervujte si pokoje pomocí rezervačního formuláře.
 
@@ -190,20 +202,6 @@ Nebo nás kontaktujte na:
 - :fontawesome-regular-envelope: **E-mail:** reservation@petrs.cz.
 
 Těšíme se na Vaši návštěvu!
-
-
-<!-- START: Room Cards -->
-<section class="featured-rooms-section">
-  <div class="featured-room" onclick="location.href='rooms/#jednoluzkove-pokoje'">
-    <img src="../assets/hotel1.jpg" alt="Jednolůžkový apartmán">
-    <div class="room-label">Jednolůžkové</div>
-  </div>
-  <div class="featured-room" onclick="location.href='rooms/#jednoluzkove-pokoje'">
-    <img src="../assets/hotel2.jpg" alt="Dvoulůžkový apartmán">
-    <div class="room-label">Dvojlůžkové</div>
-  </div>
-</section>
-<!-- END: Room Cards -->
 
 <script>
   const guestCounts = {
