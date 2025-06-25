@@ -1,7 +1,7 @@
 document.addEventListener("DOMContentLoaded", function () {
   const imageUrls = [
-    '../assets/fotky-hotelu/vchod-recepce.jpg',
-    '../assets/fotky-hotelu/dvojluzko-2-komfort.jpg',
+    '../assets/fotky-hotelu/photo-collage.png',
+    '../assets/fotky-hotelu/photo-collage2.png',
     '../assets/fotky-hotelu/postel-dalka-komfort.jpg'
   ];
 

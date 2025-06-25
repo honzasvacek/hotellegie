@@ -118,13 +118,62 @@ hide:
   white-space: nowrap !important;
   border: 0 !important;
 }
+#hotelbookingform {
+  margin-bottom:20px;
+  scroll-margin-top: 3rem;
+}
 
+.booking-form-container {
+  display: none;
+}
+.mobile-reserve-btn {
+  position: sticky;
+  display: none;
+  background-color: #fb8500;
+  color: #002850 !important;
+  padding: 12px 16px;
+  font-size: 14px;
+  font-weight: bold;
+  text-transform: uppercase;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  z-index: 10;
+  font-family: "Inter", sans-serif;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  width: fit-content
+}
+.mobile-reserve-btn:hover {
+  color: #fb8500 !important;
+  background-color: #002850 !important;
+} 
+.mobile-reserve-btn-wrapper {
+  position: relative;
+  height: 60px;
+}
+/* for smaller than 1050px display a button */
+@media (max-width: 1050px) {
+  .reservation-bar {
+    display: none !important;
+  }
+
+  .mobile-reserve-btn {
+    display: flex !important;
+  }
+
+  .booking-form-container {
+    display: block;
+  }
+}
 </style>
 <!-- START: Full-width Hero Banner -->
 <div class="hero-banner">
   <div class="hero-content">
     <h1>Welcome to Paradise Hotel</h1>
     <p>Luxury • Comfort • Tranquility</p>
+  </div>
+  <div class="mobile-reserve-btn-wrapper">
+    <a href="#hotelbookingform" class="mobile-reserve-btn">Rezervovat</a>
   </div>
   <form id="hotelBookingForm" class="reservation-bar">
             <div class="res-item">
@@ -194,7 +243,40 @@ Nabízíme ubytování ve dvoulůžkových a jednolůžkových pokojích v kateg
 </section>
 <!-- END: Room Cards -->
 
-Sledujte naši speciální nabídku a rezervujte si pokoje pomocí rezervačního formuláře.
+<div id="hotelbookingform">Sledujte naši speciální nabídku a rezervujte si pokoje pomocí rezervačního formuláře.</div>
+
+<div class="booking-form-container">
+  <div class="promo-sticker">Zadejte kód PRAHAVIP5 získejte slevu 5 %</div>
+  <h2>Rezervační formulář</h2>
+  <form id="hotelBookingForm">
+    <label for="arrivalDate">Datum příjezdu</label>
+    <input type="date" id="arrivalDate" name="arrivalDate" required><br>
+    <label for="endDate">Datum odjezdu</label>
+    <input type="date" id="endDate" name="endDate" required><br>
+    <div class="inline-fields">
+      <div class="form-group">
+        <label for="adults">Dospělé osoby</label>
+        <input type="number" id="adults" name="selectedAdultCount" min="1" max="10" value="2" required>
+      </div>
+      <div class="form-group">
+        <label for="children">Děti</label>
+        <input type="number" id="children" name="selectedChildCount" min="0" max="10" value="0">
+      </div>
+      <div class="form-group">
+        <label for="infants">Kojenci</label>
+        <input type="number" id="infants" name="selectedInfantCount" min="0" max="5" value="0">
+      </div>
+    </div>
+    <label for="promoCode">Kód speciální nabídky / Kód sazby</label>
+    <input type="text" id="promoCode" name="promoCode"><br>
+    <input type="submit" value="Rezervovat">
+    <p class="modify-link">
+      <a href="https://www.secure-hotel-booking.com/modification/Hotel-Claris/2V82/" target="_blank">
+        Zrušit / Upravit rezervaci
+      </a>
+    </p>
+  </form>
+</div>
 
 Nebo nás kontaktujte na:
 
@@ -215,3 +297,14 @@ Těšíme se na Vaši návštěvu!
     document.getElementById(type + 'Count').textContent = guestCounts[type];
   }
 </script>
+
+<script>
+document.querySelector('.mobile-reserve-btn')?.addEventListener('click', function(e) {
+  e.preventDefault();
+  const target = document.getElementById('hotelbookingform');
+  if (target) {
+    target.scrollIntoView({ behavior: 'smooth' });
+  }
+});
+</script>
+
