@@ -1,0 +1,190 @@
+.md-content h1 {
+  position: absolute !important;
+  width: 1px !important;
+  height: 1px !important;
+  overflow: hidden !important;
+  clip: rect(1px, 1px, 1px, 1px) !important;
+  white-space: nowrap !important;
+}
+.reservation-bar {
+  position: absolute;
+  bottom: 80px;
+  left: 50%;
+  transform: translateX(-50%);
+  background: #000;
+  color: white;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  padding: 12px 18px;
+  font-family: "Inter", sans-serif;
+  font-size: 14px;
+  text-transform: uppercase;
+  border: 1px solid #333;
+  z-index: 2;
+}
+
+.res-icon {
+  font-size: 18px;
+}
+
+.res-item,
+.res-counter-group {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.res-date {
+  background: transparent;
+  border: none;
+  color: white;
+  font-size: 14px;
+  width: 110px;
+  cursor: pointer;
+  
+}
+
+.res-arrow {
+  font-size: 18px;
+}
+
+.res-divider {
+  width: 1px;
+  height: 24px;
+  background: #444;
+}
+
+.res-label {
+  font-size: 12px;
+  color: #aaa;
+  margin-right: 4px;
+}
+
+.res-counter {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.res-counter button {
+  background: none;
+  color: white;
+  border: 1px solid white;
+  width: 24px;
+  height: 24px;
+  font-size: 14px;
+  cursor: pointer;
+  padding: 0;
+  line-height: 1;
+}
+
+.promo-input input {
+  background: transparent;
+  border: none;
+  border-bottom: 1px solid white;
+  padding: 4px 6px;
+  color: white;
+  font-size: 13px;
+  width: 110px;
+}
+
+.res-book {
+  background: none;
+  color: #fb8500;
+  border: none;
+  font-weight: bold;
+  font-size: 14px;
+  cursor: pointer;
+  padding: 6px 10px;
+}
+.visually-hidden {
+  position: absolute !important;
+  width: 1px !important;
+  height: 1px !important;
+  padding: 0 !important;
+  margin: -1px !important;
+  overflow: hidden !important;
+  clip: rect(0, 0, 0, 0) !important;
+  white-space: nowrap !important;
+  border: 0 !important;
+}
+#hotelbookingform {
+  margin-bottom:20px;
+  scroll-margin-top: 3rem;
+}
+
+.booking-form-container {
+  display: none;
+}
+.mobile-reserve-btn {
+  display: none;
+  background-color: #fb8500;
+  color: #002850 !important;
+  padding: 18px 24px;
+  font-size: 18px;
+  font-weight: bold;
+  text-transform: uppercase;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-family: "Inter", sans-serif;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  width: fit-content;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+.mobile-reserve-btn-wrapper {
+  position: absolute;
+  height: 60px;
+  bottom: 50px;
+  right: 20px;
+}
+/* for smaller than 1050px display a button */
+@media (max-width: 1050px) {
+  .reservation-bar {
+    display: none !important;
+  }
+
+  .mobile-reserve-btn {
+    display: flex !important;
+  }
+
+  .booking-form-container {
+    display: block;
+  }
+}
+.hero-banner {
+  background-image: url('/hotelclaris/assets/fotky-hotelu/hero.png'); /* set your image path */
+  background-position: center; /* adjust to show more of the top */
+  background-repeat: no-repeat;
+  background-size: cover;
+  object-fit: cover;
+}
+@media (max-width: 650px) {
+  .hero-banner {
+    background-image: url('/hotelclaris/assets/fotky-hotelu/hero-phone.png');
+  }
+}
+.promo-sticker-bar {
+    position: absolute;
+    bottom: 68px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #fb8500;
+    color: #000;
+    font-size: 13px;
+    font-weight: bold;
+    font-family: "Inter", sans-serif;
+    padding: 6px 12px;
+    border-radius: 6px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+    z-index: 1;
+    text-transform: uppercase;
+  }
+  
+  @media (max-width: 1050px) {
+    .promo-sticker-bar {
+      display: none;
+    }
+  }
+  

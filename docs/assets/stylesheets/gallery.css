@@ -25,12 +25,6 @@
   margin-top: 0.5rem;
 }
 
-/*temporary style for services.cs*/
-
-h1, h2, h3 {
-  color: #222;
-}
-
 /* === Layout for Image/Text Sections === */
 .section {
   display: flex;

@@ -63,7 +63,6 @@ extra_css:
 extra_javascript:
   - javascripts/swiping-gallery.js
   - javascripts/reservation.js
-  - javascripts/hero-rotation.js
   - https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js
 markdown_extensions:
   - attr_list

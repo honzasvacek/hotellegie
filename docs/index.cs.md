@@ -5,177 +5,19 @@ hide:
 ---
 
 # Domů 
-
-<style>
-.md-content h1 {
-  position: absolute !important;
-  width: 1px !important;
-  height: 1px !important;
-  overflow: hidden !important;
-  clip: rect(1px, 1px, 1px, 1px) !important;
-  white-space: nowrap !important;
-}
-.reservation-bar {
-  position: absolute;
-  bottom: 100px;
-  left: 50%;
-  transform: translateX(-50%);
-  background: #000;
-  color: white;
-  display: flex;
-  align-items: center;
-  gap: 20px;
-  padding: 12px 18px;
-  font-family: "Inter", sans-serif;
-  font-size: 14px;
-  text-transform: uppercase;
-  border: 1px solid #333;
-  z-index: 10;
-}
-
-.res-icon {
-  font-size: 18px;
-}
-
-.res-item,
-.res-counter-group {
-  display: flex;
-  align-items: center;
-  gap: 10px;
-}
-
-.res-date {
-  background: transparent;
-  border: none;
-  color: white;
-  font-size: 14px;
-  width: 110px;
-  cursor: pointer;
-  
-}
-
-.res-arrow {
-  font-size: 18px;
-}
-
-.res-divider {
-  width: 1px;
-  height: 24px;
-  background: #444;
-}
-
-.res-label {
-  font-size: 12px;
-  color: #aaa;
-  margin-right: 4px;
-}
-
-.res-counter {
-  display: flex;
-  align-items: center;
-  gap: 6px;
-}
-
-.res-counter button {
-  background: none;
-  color: white;
-  border: 1px solid white;
-  width: 24px;
-  height: 24px;
-  font-size: 14px;
-  cursor: pointer;
-  padding: 0;
-  line-height: 1;
-}
-
-.promo-input input {
-  background: transparent;
-  border: none;
-  border-bottom: 1px solid white;
-  padding: 4px 6px;
-  color: white;
-  font-size: 13px;
-  width: 110px;
-}
-
-.res-book {
-  background: none;
-  color: #00bfff;
-  border: none;
-  font-weight: bold;
-  font-size: 14px;
-  cursor: pointer;
-  padding: 6px 10px;
-}
-.visually-hidden {
-  position: absolute !important;
-  width: 1px !important;
-  height: 1px !important;
-  padding: 0 !important;
-  margin: -1px !important;
-  overflow: hidden !important;
-  clip: rect(0, 0, 0, 0) !important;
-  white-space: nowrap !important;
-  border: 0 !important;
-}
-#hotelbookingform {
-  margin-bottom:20px;
-  scroll-margin-top: 3rem;
-}
-
-.booking-form-container {
-  display: none;
-}
-.mobile-reserve-btn {
-  position: sticky;
-  display: none;
-  background-color: #fb8500;
-  color: #002850 !important;
-  padding: 12px 16px;
-  font-size: 14px;
-  font-weight: bold;
-  text-transform: uppercase;
-  border: none;
-  border-radius: 8px;
-  cursor: pointer;
-  z-index: 10;
-  font-family: "Inter", sans-serif;
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
-  width: fit-content
-}
-.mobile-reserve-btn:hover {
-  color: #fb8500 !important;
-  background-color: #002850 !important;
-} 
-.mobile-reserve-btn-wrapper {
-  position: relative;
-  height: 60px;
-}
-/* for smaller than 1050px display a button */
-@media (max-width: 1050px) {
-  .reservation-bar {
-    display: none !important;
-  }
-
-  .mobile-reserve-btn {
-    display: flex !important;
-  }
-
-  .booking-form-container {
-    display: block;
-  }
-}
-</style>
 <!-- START: Full-width Hero Banner -->
 <div class="hero-banner">
   <div class="hero-content">
-    <h1>Welcome to Paradise Hotel</h1>
-    <p>Luxury • Comfort • Tranquility</p>
+    <h1>Vítejte v hotelu Claris</h1>
+    <p>Luxus • Komfort • Lokalita</p>
   </div>
   <div class="mobile-reserve-btn-wrapper">
     <a href="#hotelbookingform" class="mobile-reserve-btn">Rezervovat</a>
   </div>
   <form id="hotelBookingForm" class="reservation-bar">
+            <div class="promo-sticker-bar">
+              <span>&#9432; Použijte kód <strong>PRAHAVIP5</strong> pro 5% slevu</span>
+            </div>
             <div class="res-item">
                 <div class="date-container">
                     <input type="date" id="arrivalDate" name="arrivalDate" class="res-date" required/>
@@ -225,6 +67,7 @@ hide:
 </form>
 </div>
 <!-- END: Full-width Hero Banner -->
+<link rel="stylesheet" href="/hotelclaris/assets/stylesheets/index.css">
 
 ## Vítejte v hotelu CLARIS!
 
