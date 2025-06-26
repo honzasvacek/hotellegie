@@ -12,7 +12,7 @@ hide:
     <p>Luxus • Komfort • Lokalita</p>
   </div>
   <div class="mobile-reserve-btn-wrapper">
-    <a href="#hotelbookingform" class="mobile-reserve-btn">Rezervovat</a>
+    <a href="#booking-title" class="mobile-reserve-btn">Rezervovat</a>
   </div>
   <form id="hotelBookingForm" class="reservation-bar">
             <div class="promo-sticker-bar">
@@ -86,40 +86,9 @@ Nabízíme ubytování ve dvoulůžkových a jednolůžkových pokojích v kateg
 </section>
 <!-- END: Room Cards -->
 
-<div id="hotelbookingform">Sledujte naši speciální nabídku a rezervujte si pokoje pomocí rezervačního formuláře.</div>
+<div id="booking-title">Sledujte naši speciální nabídku a rezervujte si pokoje pomocí rezervačního formuláře.</div>
 
-<div class="booking-form-container">
-  <div class="promo-sticker">Zadejte kód PRAHAVIP5 získejte slevu 5 %</div>
-  <h2>Rezervační formulář</h2>
-  <form id="hotelBookingForm">
-    <label for="arrivalDate">Datum příjezdu</label>
-    <input type="date" id="arrivalDate" name="arrivalDate" required><br>
-    <label for="endDate">Datum odjezdu</label>
-    <input type="date" id="endDate" name="endDate" required><br>
-    <div class="inline-fields">
-      <div class="form-group">
-        <label for="adults">Dospělé osoby</label>
-        <input type="number" id="adults" name="selectedAdultCount" min="1" max="10" value="2" required>
-      </div>
-      <div class="form-group">
-        <label for="children">Děti</label>
-        <input type="number" id="children" name="selectedChildCount" min="0" max="10" value="0">
-      </div>
-      <div class="form-group">
-        <label for="infants">Kojenci</label>
-        <input type="number" id="infants" name="selectedInfantCount" min="0" max="5" value="0">
-      </div>
-    </div>
-    <label for="promoCode">Kód speciální nabídky / Kód sazby</label>
-    <input type="text" id="promoCode" name="promoCode"><br>
-    <input type="submit" value="Rezervovat">
-    <p class="modify-link">
-      <a href="https://www.secure-hotel-booking.com/modification/Hotel-Claris/2V82/" target="_blank">
-        Zrušit / Upravit rezervaci
-      </a>
-    </p>
-  </form>
-</div>
+--8<-- "booking-form.cs.html"
 
 Nebo nás kontaktujte na:
 
@@ -127,27 +96,4 @@ Nebo nás kontaktujte na:
 - :fontawesome-regular-envelope: **E-mail:** reservation@petrs.cz.
 
 Těšíme se na Vaši návštěvu!
-
-<script>
-  const guestCounts = {
-    adults: 1,
-    children: 0,
-    infants: 0,
-  };
-
-  function adjustGuests(type, delta) {
-    guestCounts[type] = Math.max(0, guestCounts[type] + delta);
-    document.getElementById(type + 'Count').textContent = guestCounts[type];
-  }
-</script>
-
-<script>
-document.querySelector('.mobile-reserve-btn')?.addEventListener('click', function(e) {
-  e.preventDefault();
-  const target = document.getElementById('hotelbookingform');
-  if (target) {
-    target.scrollIntoView({ behavior: 'smooth' });
-  }
-});
-</script>
 

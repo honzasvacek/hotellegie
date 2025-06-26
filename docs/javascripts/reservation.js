@@ -1,117 +1,130 @@
-const arrivalInput = document.getElementById('arrivalDate');
-const endInput = document.getElementById('endDate');
-
-function formatDate(date) {
-  return date.toISOString().split('T')[0]; // yyyy-mm-dd
-}
-
-function setDefaultDates() {
-  const today = new Date();
-  const tomorrow = new Date(today);
-  tomorrow.setDate(today.getDate() + 1);
-  const dayAfterTomorrow = new Date(today);
-  dayAfterTomorrow.setDate(today.getDate() + 2);
-  arrivalInput.value = formatDate(tomorrow);
-  endInput.value = formatDate(dayAfterTomorrow);
-}
-
-function ensureEndDateAfterArrival() {
-  const arrivalDate = new Date(arrivalInput.value);
-  const endDate = new Date(endInput.value);
-  if (arrivalDate >= endDate) {
-    const newEndDate = new Date(arrivalDate);
-    newEndDate.setDate(arrivalDate.getDate() + 1);
-    endInput.value = formatDate(newEndDate);
+  // Utility function to format date as yyyy-mm-dd
+  function formatDate(date) {
+    return date.toISOString().split('T')[0];
   }
-}
 
-// Function to get guest count - works with both input and span elements
-function getGuestCount(elementId) {
-  const element = document.getElementById(elementId);
-  // Check if it's an input element (old form) or span element (new form)
-  return element.tagName.toLowerCase() === 'input' ? element.value : element.textContent;
-}
+  // Set default dates for all booking forms
+  function setDefaultDates() {
+    const tomorrow = new Date();
+    tomorrow.setDate(tomorrow.getDate() + 1);
+    const dayAfter = new Date();
+    dayAfter.setDate(dayAfter.getDate() + 2);
 
-// Function to adjust guest counts (only needed for new form with +/- buttons)
-function adjustGuests(type, change) {
-  const element = document.getElementById(type);
-  // Only works with span elements (new form)
-  if (element.tagName.toLowerCase() !== 'span') return;
-  
-  let currentValue = parseInt(element.textContent);
-  let newValue = currentValue + change;
-  
-  // Set minimum values
-  if (type === 'adults' && newValue < 1) {
-    newValue = 1;
-  } else if ((type === 'children' || type === 'infants') && newValue < 0) {
-    newValue = 0;
+    document.querySelectorAll('#arrivalDate').forEach(input => {
+      input.value = formatDate(tomorrow);
+    });
+    document.querySelectorAll('#endDate').forEach(input => {
+      input.value = formatDate(dayAfter);
+    });
   }
-  
-  // Set maximum values
-  if (type === 'adults' && newValue > 10) {
-    newValue = 10;
-  } else if (type === 'children' && newValue > 10) {
-    newValue = 10;
-  } else if (type === 'infants' && newValue > 5) {
-    newValue = 5;
+
+  // Adjust end date if arrival date is same/later
+  function ensureEndDateAfterArrival(input) {
+    const form = input.closest('form');
+    const arrivalInput = form.querySelector('#arrivalDate');
+    const endInput = form.querySelector('#endDate');
+
+    const arrivalDate = new Date(arrivalInput.value);
+    const endDate = new Date(endInput.value);
+
+    if (arrivalDate >= endDate) {
+      const newEndDate = new Date(arrivalDate);
+      newEndDate.setDate(arrivalDate.getDate() + 1);
+      endInput.value = formatDate(newEndDate);
+    }
   }
-  
-  element.textContent = newValue;
-}
 
-arrivalInput.addEventListener('change', ensureEndDateAfterArrival);
+  // Adjust guest count for +/- buttons (used in hero form)
+  function adjustGuests(type, change) {
+    const element = document.getElementById(type);
+    if (!element || element.tagName.toLowerCase() !== 'span') return;
 
-document.getElementById('hotelBookingForm').addEventListener('submit', function(e) {
-  e.preventDefault();
-  const arrivalDate = arrivalInput.value;
-  const endDate = endInput.value;
-  const nights = (new Date(endDate) - new Date(arrivalDate)) / (1000 * 60 * 60 * 24);
-  
-  // Universal method to get guest counts - works with both forms
-  const adults = getGuestCount('adults');
-  const children = getGuestCount('children');
-  const infants = getGuestCount('infants');
-  const promoCode = document.getElementById('promoCode').value;
-  
-  const baseUrl = 'https://www.secure-hotel-booking.com/d-edge/Hotel-Claris/2V82/cs-CZ/RoomSelection';
-  let queryParams = `?language=cs&arrivalDate=${arrivalDate}&nights=${nights}&_ga=&guestCountSelector=ReadOnly&crossSell=false`;
-  queryParams += `&selectedAdultCount=${adults}&selectedChildCount=${children}&selectedInfantCount=${infants}`;
-  
-  if (promoCode.trim()) {
-    queryParams += `&promoCode=${encodeURIComponent(promoCode.trim())}`;
+    let currentValue = parseInt(element.textContent);
+    let newValue = currentValue + change;
+
+    if (type === 'adults') newValue = Math.max(1, Math.min(newValue, 10));
+    if (type === 'children') newValue = Math.max(0, Math.min(newValue, 10));
+    if (type === 'infants') newValue = Math.max(0, Math.min(newValue, 5));
+
+    element.textContent = newValue;
   }
-  
-  window.open(baseUrl + queryParams, '_blank');
-});
 
-setDefaultDates(); // Set defaults on page load
+  // Unified submit handler for both forms
+  function setupFormHandlers() {
+    document.querySelectorAll('#hotelBookingForm').forEach(form => {
+      form.addEventListener('submit', function (e) {
+        e.preventDefault();
 
-  /* Index JS */
+        const formEl = e.target;
+
+        const arrivalInput = formEl.querySelector('#arrivalDate');
+        const endInput = formEl.querySelector('#endDate');
+        const promoCodeInput = formEl.querySelector('#promoCode');
+
+        const arrivalDate = arrivalInput.value;
+        const endDate = endInput.value;
+
+        const nights = (new Date(endDate) - new Date(arrivalDate)) / (1000 * 60 * 60 * 24);
+
+        function getGuestCountScoped(selector) {
+          const el = formEl.querySelector(selector);
+          return el ? (el.tagName.toLowerCase() === 'input' ? el.value : el.textContent) : 0;
+        }
+
+        const adults = getGuestCountScoped('#adults');
+        const children = getGuestCountScoped('#children');
+        const infants = getGuestCountScoped('#infants');
+        const promoCode = promoCodeInput ? promoCodeInput.value : '';
+
+        const baseUrl = 'https://www.secure-hotel-booking.com/d-edge/Hotel-Claris/2V82/cs-CZ/RoomSelection';
+        let queryParams = `?language=cs&arrivalDate=${arrivalDate}&nights=${nights}&_ga=&guestCountSelector=ReadOnly&crossSell=false`;
+        queryParams += `&selectedAdultCount=${adults}&selectedChildCount=${children}&selectedInfantCount=${infants}`;
+
+        if (promoCode.trim()) {
+          queryParams += `&promoCode=${encodeURIComponent(promoCode.trim())}`;
+        }
+
+        window.open(baseUrl + queryParams, '_blank');
+      });
+
+      // Attach change listener to ensure end date is valid
+      const arrivalInput = form.querySelector('#arrivalDate');
+      if (arrivalInput) {
+        arrivalInput.addEventListener('change', () => ensureEndDateAfterArrival(arrivalInput));
+      }
+    });
+  }
+
+  // Scroll animation (optional visual effect)
+  function setupScrollAnimations() {
+    const observer = new IntersectionObserver(entries => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          entry.target.classList.add('visible');
+        }
+      });
+    }, { threshold: 0.1 });
+
+    document.querySelectorAll('.animate-on-scroll').forEach(el => {
+      observer.observe(el);
+    });
+  }
+
+  // Init on DOM ready
   document.addEventListener("DOMContentLoaded", () => {
-  const observer = new IntersectionObserver(entries => {
-    entries.forEach(entry => {
-      if (entry.isIntersecting) {
-        entry.target.classList.add('visible');
-      }
-    });
-  }, { threshold: 0.1 });
-
-  document.querySelectorAll('.animate-on-scroll').forEach(el => {
-    observer.observe(el);
+    setDefaultDates();
+    setupFormHandlers();
+    setupScrollAnimations();
   });
+
+  // Expose adjustGuests for +/- buttons
+  window.adjustGuests = adjustGuests;
+
+/* mobile smooth scroll */
+document.querySelector('.mobile-reserve-btn')?.addEventListener('click', function(e) {
+  e.preventDefault();
+  const target = document.getElementById('booking-title');
+  if (target) {
+    target.scrollIntoView({ behavior: 'smooth' });
+  }
 });
-
-
-document.addEventListener("DOMContentLoaded", () => {
-  const observer = new IntersectionObserver(entries => {
-    entries.forEach(entry => {
-      if (entry.isIntersecting) {
-        entry.target.classList.add('visible');
-      }
-    });
-  }, { threshold: 0.1 });
-
-  document.querySelectorAll('.animate-on-scroll').forEach(el => observer.observe(el));
-});
-

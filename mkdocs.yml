@@ -4,7 +4,7 @@ site_description: "Hotel CLARIS - Luxury accommodation in Prague with modern roo
 theme:
   name: material
   icon:
-    alternate: fontawesome/solid/globe
+    alternate: fontawesome/solid/flag-usa
   language: en
   font: 
     text: Merriweather Sans
