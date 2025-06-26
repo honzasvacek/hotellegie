@@ -5,7 +5,6 @@ theme:
   name: material
   icon:
     alternate: fontawesome/solid/globe
-  custom_dir: overrides
   language: en
   font: 
     text: Merriweather Sans
