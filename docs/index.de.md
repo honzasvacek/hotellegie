@@ -61,7 +61,7 @@ hide:
   </form>
 </div>
 <!-- END: Full-width Hero Banner -->
-<link rel="stylesheet" href="../../assets/stylesheets/index.css">
+<link rel="stylesheet" href="/assets/stylesheets/index.css">
 
 ## Willkommen im Hotel LEGIE!
 
