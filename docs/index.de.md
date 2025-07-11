@@ -61,7 +61,7 @@ hide:
   </form>
 </div>
 <!-- END: Full-width Hero Banner -->
-<link rel="stylesheet" href="../../hotellegie/assets/stylesheets/index.css">
+<link rel="stylesheet" href="../../assets/stylesheets/index.css">
 
 ## Willkommen im Hotel LEGIE!
 
@@ -69,21 +69,21 @@ Wir bieten Übernachtungen in Einbett-, Zweibett-, Dreibett- und Vierbettzimmern
 
 <section class="featured-rooms-section">
   <div class="featured-room" onclick="location.href='02.rooms/#einzelzimmer-standard-komfort'">
-    <img src="/hotellegie/assets/fotky_hotelu/jednoluzko.webp" alt="Einzelzimmer Apartment">
+    <img src="/assets/fotky_hotelu/jednoluzko.webp" alt="Einzelzimmer Apartment">
     <div class="room-label">Einzelzimmer</div>
   </div>
   <div class="featured-room" onclick="location.href='02.rooms/#doppelzimmer-standard-komfort'">
-    <img src="/hotellegie/assets/fotky_hotelu/dvojluzko.webp" alt="Doppelzimmer Apartment">
+    <img src="/assets/fotky_hotelu/dvojluzko.webp" alt="Doppelzimmer Apartment">
     <div class="room-label">Doppelzimmer</div>
   </div>
 </section>
 <section class="featured-rooms-section">
   <div class="featured-room" onclick="location.href='02.rooms/#dreibettzimmer'">
-    <img src="/hotellegie/assets/fotky_hotelu/trojluzko.webp" alt="Einzelzimmer Apartment">
+    <img src="/assets/fotky_hotelu/trojluzko.webp" alt="Einzelzimmer Apartment">
     <div class="room-label">Dreibettzimmer</div>
   </div>
   <div class="featured-room" onclick="location.href='02.rooms/#vierbettzimmer'">
-    <img src="/hotellegie/assets/fotky_hotelu/ctyrluzko.webp" alt="Doppelzimmer Apartment">
+    <img src="/assets/fotky_hotelu/ctyrluzko.webp" alt="Doppelzimmer Apartment">
     <div class="room-label">Vierbettzimmer</div>
   </div>
 </section>

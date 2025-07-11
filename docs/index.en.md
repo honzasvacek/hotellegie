@@ -61,7 +61,7 @@ hide:
   </form>
 </div>
 <!-- END: Full-width Hero Banner -->
-<link rel="stylesheet" href="./hotellegie/assets/stylesheets/index.css">
+<link rel="stylesheet" href="./assets/stylesheets/index.css">
 
 ## Welcome to Hotel LEGIE!
 
@@ -69,21 +69,21 @@ We offer accommodation in single, double, triple, and quadruple rooms in standar
 
 <section class="featured-rooms-section">
   <div class="featured-room" onclick="location.href='02.rooms/#single-rooms-standard-comfort'">
-    <img src="/hotellegie/assets/fotky_hotelu/jednoluzko.webp" alt="Single Room Apartment">
+    <img src="/assets/fotky_hotelu/jednoluzko.webp" alt="Single Room Apartment">
     <div class="room-label">Single Rooms</div>
   </div>
   <div class="featured-room" onclick="location.href='02.rooms/#double-rooms-standard-comfort'">
-    <img src="/hotellegie/assets/fotky_hotelu/dvojluzko.webp" alt="Double Room Apartment">
+    <img src="/assets/fotky_hotelu/dvojluzko.webp" alt="Double Room Apartment">
     <div class="room-label">Double Rooms</div>
   </div>
 </section>
 <section class="featured-rooms-section">
   <div class="featured-room" onclick="location.href='02.rooms/#triple-rooms'">
-    <img src="/hotellegie/assets/fotky_hotelu/trojluzko.webp" alt="Single Room Apartment">
+    <img src="/assets/fotky_hotelu/trojluzko.webp" alt="Single Room Apartment">
     <div class="room-label">Triple Rooms</div>
   </div>
   <div class="featured-room" onclick="location.href='02.rooms/#quadruple-rooms'">
-    <img src="/hotellegie/assets/fotky_hotelu/ctyrluzko.webp" alt="Double Room Apartment">
+    <img src="/assets/fotky_hotelu/ctyrluzko.webp" alt="Double Room Apartment">
     <div class="room-label">Quadruple Rooms</div>
   </div>
 </section>
