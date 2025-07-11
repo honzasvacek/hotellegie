@@ -15,7 +15,7 @@ hide:
   <div class="mobile-reserve-btn-wrapper">
     <a href="#booking-title" class="mobile-reserve-btn">Book now</a>
   </div>
-  <form id="hotelBookingForm" class="reservation-bar">
+  <form id="hotelBookingForm" class="reservation-bar" data-lang="en-EN">
     <div class="promo-sticker-bar">
       <span>&#9432; Use code <strong>PRAHAVIP5</strong> for 5% off</span>
     </div>
@@ -61,24 +61,32 @@ hide:
   </form>
 </div>
 <!-- END: Full-width Hero Banner -->
-<link rel="stylesheet" href="/hotelclaris/assets/stylesheets/index.css">
+<link rel="stylesheet" href="./assets/stylesheets/index.css">
 
-## Welcome to Hotel CLARIS!
+## Welcome to Hotel LEGIE!
 
-We offer accommodation in single and double rooms in standard and comfort categories!
+We offer accommodation in single, double, triple, and quadruple rooms in standard and comfort categories!
 
-<!-- START: Room Cards -->
 <section class="featured-rooms-section">
-  <div class="featured-room" onclick="location.href='02.rooms/#single-rooms'">
-    <img src="/hotelclaris/assets/fotky-hotelu/jednoluzko-komfort2.jpg" alt="Single Room">
+  <div class="featured-room" onclick="location.href='02.rooms/#single-rooms-standard-comfort'">
+    <img src="/assets/fotky_hotelu/jednoluzko.webp" alt="Single Room Apartment">
     <div class="room-label">Single Rooms</div>
   </div>
-  <div class="featured-room" onclick="location.href='02.rooms/#double-rooms'">
-    <img src="/hotelclaris/assets/fotky-hotelu/dvojluzko-2-komfort.jpg" alt="Double Room">
+  <div class="featured-room" onclick="location.href='02.rooms/#double-rooms-standard-comfort'">
+    <img src="/assets/fotky_hotelu/dvojluzko.webp" alt="Double Room Apartment">
     <div class="room-label">Double Rooms</div>
   </div>
 </section>
-<!-- END: Room Cards -->
+<section class="featured-rooms-section">
+  <div class="featured-room" onclick="location.href='02.rooms/#triple-rooms'">
+    <img src="/assets/fotky_hotelu/trojluzko.webp" alt="Single Room Apartment">
+    <div class="room-label">Triple Rooms</div>
+  </div>
+  <div class="featured-room" onclick="location.href='02.rooms/#quadruple-rooms'">
+    <img src="/assets/fotky_hotelu/ctyrluzko.webp" alt="Double Room Apartment">
+    <div class="room-label">Quadruple Rooms</div>
+  </div>
+</section>
 
 <div id="booking-title">Check out our special offer and book your stay using the reservation form.</div>
 

@@ -15,7 +15,7 @@ hide:
   <div class="mobile-reserve-btn-wrapper">
     <a href="#booking-title" class="mobile-reserve-btn">Jetzt buchen</a>
   </div>
-  <form id="hotelBookingForm" class="reservation-bar">
+  <form id="hotelBookingForm" class="reservation-bar" data-lang="de-DE">
   <div class="promo-sticker-bar">
   <span>&#9432; Verwenden Sie den Code <strong>PRAHAVIP5</strong> für 5% Rabatt</span>
 </div>
@@ -61,24 +61,33 @@ hide:
   </form>
 </div>
 <!-- END: Full-width Hero Banner -->
-<link rel="stylesheet" href="/hotelclaris/assets/stylesheets/index.css">
+<link rel="stylesheet" href="../../assets/stylesheets/index.css">
 
-## Willkommen im Hotel CLARIS!
+## Willkommen im Hotel LEGIE!
 
-Wir bieten Einzel- und Doppelzimmer in den Kategorien Standard und Komfort!
+Wir bieten Übernachtungen in Einbett-, Zweibett-, Dreibett- und Vierbettzimmern in den Kategorien Standard und Komfort an!
 
-<!-- START: Room Cards -->
 <section class="featured-rooms-section">
-  <div class="featured-room" onclick="location.href='02.rooms/#einzelzimmer'">
-    <img src="/hotelclaris/assets/fotky-hotelu/jednoluzko-komfort2.jpg" alt="Einzelzimmer">
+  <div class="featured-room" onclick="location.href='02.rooms/#einzelzimmer-standard-komfort'">
+    <img src="/assets/fotky_hotelu/jednoluzko.webp" alt="Einzelzimmer Apartment">
     <div class="room-label">Einzelzimmer</div>
   </div>
-  <div class="featured-room" onclick="location.href='02.rooms/#doppelzimmer'">
-    <img src="/hotelclaris/assets/fotky-hotelu/dvojluzko-2-komfort.jpg" alt="Doppelzimmer">
+  <div class="featured-room" onclick="location.href='02.rooms/#doppelzimmer-standard-komfort'">
+    <img src="/assets/fotky_hotelu/dvojluzko.webp" alt="Doppelzimmer Apartment">
     <div class="room-label">Doppelzimmer</div>
   </div>
 </section>
-<!-- END: Room Cards -->
+<section class="featured-rooms-section">
+  <div class="featured-room" onclick="location.href='02.rooms/#dreibettzimmer'">
+    <img src="/assets/fotky_hotelu/trojluzko.webp" alt="Einzelzimmer Apartment">
+    <div class="room-label">Dreibettzimmer</div>
+  </div>
+  <div class="featured-room" onclick="location.href='02.rooms/#vierbettzimmer'">
+    <img src="/assets/fotky_hotelu/ctyrluzko.webp" alt="Doppelzimmer Apartment">
+    <div class="room-label">Vierbettzimmer</div>
+  </div>
+</section>
+
 
 <div id="booking-title">Nutzen Sie unser Sonderangebot und buchen Sie Ihr Zimmer über das Reservierungsformular.</div>
 

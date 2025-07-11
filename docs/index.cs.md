@@ -14,7 +14,7 @@ hide:
   <div class="mobile-reserve-btn-wrapper">
     <a href="#booking-title" class="mobile-reserve-btn">Rezervovat</a>
   </div>
-  <form id="hotelBookingForm" class="reservation-bar">
+  <form id="hotelBookingForm" class="reservation-bar" data-lang="cs-CZ">
             <div class="promo-sticker-bar">
               <span>&#9432; Použijte kód <strong>PRAHAVIP5</strong> pro 5% slevu</span>
             </div>
@@ -67,21 +67,31 @@ hide:
 </form>
 </div>
 <!-- END: Full-width Hero Banner -->
-<link rel="stylesheet" href="/hotelclaris/assets/stylesheets/index.css">
+<link rel="stylesheet" href="../../assets/stylesheets/index.css">
 
-## Vítejte v hotelu CLARIS!
+## Vítejte v hotelu LEGIE!
 
-Nabízíme ubytování ve dvoulůžkových a jednolůžkových pokojích v kategorii standard a komfort!
+Nabízíme ubytování v jedno-, dvou-, tří- a čtyřlůžkových pokojích v kategoriích standard a komfort!
 
 <!-- START: Room Cards -->
 <section class="featured-rooms-section">
-  <div class="featured-room" onclick="location.href='02.rooms/#jednoluzkove-pokoje'">
-    <img src="/hotelclaris/assets/fotky-hotelu/jednoluzko-komfort2.jpg" alt="Jednolůžkový apartmán">
+  <div class="featured-room" onclick="location.href='02.rooms/#jednoluzkove-pokoje-standard-a-komfort'">
+    <img src="/assets/fotky_hotelu/jednoluzko.webp" alt="Jednolůžkový apartmán">
     <div class="room-label">Jednolůžkové</div>
   </div>
-  <div class="featured-room" onclick="location.href='02.rooms/#dvouluzkove-pokoje'">
-    <img src="/hotelclaris/assets/fotky-hotelu/dvojluzko-2-komfort.jpg" alt="Dvoulůžkový apartmán">
+  <div class="featured-room" onclick="location.href='02.rooms/#dvouluzkove-pokoje-standard-a-komfort'">
+    <img src="/assets/fotky_hotelu/dvojluzko.webp" alt="Dvoulůžkový apartmán">
     <div class="room-label">Dvoulůžkové</div>
+  </div>
+</section>
+<section class="featured-rooms-section">
+  <div class="featured-room" onclick="location.href='02.rooms/#triluzkove-pokoje'">
+    <img src="/assets/fotky_hotelu/trojluzko.webp" alt="Jednolůžkový apartmán">
+    <div class="room-label">Třílůžkové</div>
+  </div>
+  <div class="featured-room" onclick="location.href='02.rooms/#ctyrluzkove-pokoje'">
+    <img src="/assets/fotky_hotelu/ctyrluzko.webp" alt="Dvoulůžkový apartmán">
+    <div class="room-label">Čtyřlůžkové</div>
   </div>
 </section>
 <!-- END: Room Cards -->

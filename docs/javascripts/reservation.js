@@ -53,9 +53,8 @@
   function setupFormHandlers() {
     document.querySelectorAll('#hotelBookingForm').forEach(form => {
       form.addEventListener('submit', function (e) {
-        e.preventDefault();
-
         const formEl = e.target;
+        const lang = formEl.getAttribute('data-lang') || 'cs-CZ';
 
         const arrivalInput = formEl.querySelector('#arrivalDate');
         const endInput = formEl.querySelector('#endDate');
@@ -76,8 +75,8 @@
         const infants = getGuestCountScoped('#infants');
         const promoCode = promoCodeInput ? promoCodeInput.value : '';
 
-        const baseUrl = 'https://www.secure-hotel-booking.com/d-edge/Hotel-Claris/2V82/cs-CZ/RoomSelection';
-        let queryParams = `?language=cs&arrivalDate=${arrivalDate}&nights=${nights}&_ga=&guestCountSelector=ReadOnly&crossSell=false`;
+        const baseUrl = `https://www.secure-hotel-booking.com/d-edge/Hotel-Legie/2DY1/${lang}/RoomSelection`;
+        let queryParams = `?language=${lang.split('-')[0]}&arrivalDate=${arrivalDate}&nights=${nights}&_ga=&guestCountSelector=ReadOnly&crossSell=false`;
         queryParams += `&selectedAdultCount=${adults}&selectedChildCount=${children}&selectedInfantCount=${infants}`;
 
         if (promoCode.trim()) {
