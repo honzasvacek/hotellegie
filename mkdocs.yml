@@ -1,5 +1,6 @@
 site_name: Hotel LEGIE
 site_url: https://honzasvacek.github.io/hotellegie
+use_directory_urls: true
 site_description: "Hotel LEGIE - Luxury accommodation in Prague with modern rooms, excellent service, and convenient location"
 theme:
   name: material
