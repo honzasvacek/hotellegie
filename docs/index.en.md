@@ -65,7 +65,11 @@ hide:
 
 ## Welcome to Hotel LEGIE!
 
-We offer accommodation in single, double, triple, and quadruple rooms in standard and comfort categories!
+We offer accommodation in 55 rooms in two categories - Standard and Comfort.
+
+Comfort rooms are completely renovated, modern and comfortably equipped. 
+
+Some of them offer a beautiful view of the Prague skyline.
 
 <section class="featured-rooms-section">
   <div class="featured-room" onclick="location.href='02.rooms/#single-rooms-standard-comfort'">
@@ -88,13 +92,18 @@ We offer accommodation in single, double, triple, and quadruple rooms in standar
   </div>
 </section>
 
-<div id="booking-title">Check out our special offer and book your stay using the reservation form.</div>
+We accommodate both individuals and groups.
+
+We also offer rental of lounges and a banquet hall.
+
+<div id="booking-title">
+You can book online using our booking form or contact us:
+</div>
 
 --8<-- "booking-form.en.html"
 
-Or contact us at:
-
-- :fontawesome-solid-phone: **Phone:** +420 775712882 (Reservations), +420 608712854 (Reception)  
-- :fontawesome-regular-envelope: **Email:** reservation@petrs.cz
+- :fontawesome-solid-phone: **Reservation:** +420 775 712 882 
+- :fontawesome-solid-phone: **Reception:** +420 775 564 968 
+- :fontawesome-regular-envelope: **E-mail:** reservation@petrs.cz
 
 We look forward to your visit!

@@ -65,7 +65,11 @@ hide:
 
 ## Willkommen im Hotel LEGIE!
 
-Wir bieten Übernachtungen in Einbett-, Zweibett-, Dreibett- und Vierbettzimmern in den Kategorien Standard und Komfort an!
+Wir bieten Unterkunft in 55 Zimmern in zwei Kategorien – Standard und Komfort.
+
+Die Komfortzimmer sind komplett renoviert und modern und komfortabel ausgestattet. 
+
+Einige von ihnen bieten einen wunderschönen Blick auf das Prager Panorama.
 
 <section class="featured-rooms-section">
   <div class="featured-room" onclick="location.href='02.rooms/#einzelzimmer-standard-komfort'">
@@ -88,14 +92,19 @@ Wir bieten Übernachtungen in Einbett-, Zweibett-, Dreibett- und Vierbettzimmern
   </div>
 </section>
 
+Wir bieten Unterkunft sowohl für Einzelpersonen als auch für Gruppen.
 
-<div id="booking-title">Nutzen Sie unser Sonderangebot und buchen Sie Ihr Zimmer über das Reservierungsformular.</div>
+Wir vermieten auch Salons und einen Veranstaltungssaal.
+
+
+<div id="booking-title">
+Sie können online über unser Reservierungsformular reservieren oder uns kontaktieren:
+</div>
 
 --8<-- "booking-form.de.html"
 
-Oder kontaktieren Sie uns unter:
-
-- :fontawesome-solid-phone: **Telefon:** +420 775712882 (Reservierungen), +420 608712854 (Rezeption)  
+- :fontawesome-solid-phone: **Reservierung:** +420 775 712 882 
+- :fontawesome-solid-phone: **Rezeption:** +420 775 564 968 
 - :fontawesome-regular-envelope: **E-Mail:** reservation@petrs.cz
 
 Wir freuen uns auf Ihren Besuch!

@@ -2,12 +2,13 @@
   display: flex;
   justify-content: center;
   gap: 2rem;
-  padding: 2rem 1rem;
+  padding: 2rem;
   flex-wrap: wrap;
 }
 
 .featured-room {
   position: relative;
+  height: 300px;
   width: 400px;
   max-width: 90vw;
   cursor: pointer;

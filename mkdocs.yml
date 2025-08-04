@@ -80,14 +80,14 @@ markdown_extensions:
   - pymdownx.details
   - pymdownx.snippets:
       base_path: 'docs/snippets'
-copyright: 'Hotel Claris, Slezská 26, Praha 2 | +420 775 712 882 | E-mail: reservation@petrs.cz | www.hotelclaris.cz'
+copyright: 'Hotel Legie, Sokolská 33, Praha 2 | +420 775564968 | E-mail: reservation@petrs.cz | www.hotellegie.cz'
 extra:
   checkin_time: "14:00"
   checkout_time: "11:00"
   hotel_name: "Hotel"
   social:
     - icon: fontawesome/brands/facebook
-      link: https://www.facebook.com/ClarisHotel
+      link: https://www.facebook.com/HotelLegie/
     - icon: fontawesome/solid/paper-plane
       link: mailto:<reservation@petrs.cz>
   generator: false

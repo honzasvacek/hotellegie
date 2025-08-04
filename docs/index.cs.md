@@ -71,7 +71,12 @@ hide:
 
 ## Vítejte v hotelu LEGIE!
 
-Nabízíme ubytování v jedno-, dvou-, tří- a čtyřlůžkových pokojích v kategoriích standard a komfort!
+Nabízíme ubytování v 55 pokojích ve dvou kategoriích – Standard a Komfort.
+
+Pokoje Komfort jsou po kompletní rekonstrukci, moderně a pohodlně vybavené. 
+
+Některé z nich nabízejí překrásný výhled na pražské panorama.
+
 
 <!-- START: Room Cards -->
 <section class="featured-rooms-section">
@@ -96,14 +101,20 @@ Nabízíme ubytování v jedno-, dvou-, tří- a čtyřlůžkových pokojích v 
 </section>
 <!-- END: Room Cards -->
 
-<div id="booking-title">Sledujte naši speciální nabídku a rezervujte si pokoje pomocí rezervačního formuláře.</div>
+Ubytováváme jak jednotlivce, tak skupiny.
+
+Nabízíme také pronájem salonků a společenského sálu.
+
+
+<div id="booking-title">
+Rezervaci můžete provést online pomocí našeho rezervačního formuláře, nebo nás kontaktujte:
+</div>
 
 --8<-- "booking-form.cs.html"
 
-Nebo nás kontaktujte na:
-
-- :fontawesome-solid-phone: **Telefon:** +420 775712882 ( rezervace) +420 608712854 ( Recepce)
-- :fontawesome-regular-envelope: **E-mail:** reservation@petrs.cz.
+- :fontawesome-solid-phone: **Rezervace:** +420 775 712 882 
+- :fontawesome-solid-phone: **Recepce:** +420 775 564 968 
+- :fontawesome-regular-envelope: **E-mail:** reservation@petrs.cz
 
 Těšíme se na Vaši návštěvu!
 
