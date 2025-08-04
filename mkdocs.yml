@@ -62,6 +62,7 @@ extra_css:
   - assets/stylesheets/hotelrooms.css
   - https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css
 extra_javascript:
+  - javascripts/disable-translation.js
   - javascripts/user-swiping-gallery.js
   - javascripts/swiping-gallery.js
   - javascripts/reservation.js
