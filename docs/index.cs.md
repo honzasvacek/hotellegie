@@ -9,7 +9,7 @@ hide:
 <div class="hero-banner">
   <div class="hero-content">
     <h1>Vítejte v hotelu Claris</h1>
-    <p>Luxus • Komfort • Lokalita</p>
+    <p>Centrum • Pohodlí • Tradice</p>
   </div>
   <div class="mobile-reserve-btn-wrapper">
     <a href="#booking-title" class="mobile-reserve-btn">Rezervovat</a>

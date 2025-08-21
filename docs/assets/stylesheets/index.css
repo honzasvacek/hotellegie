@@ -154,15 +154,20 @@
   }
 }
 .hero-banner {
-  background-image: url('/assets//hero.webp'); /* set your image path */
+  background-image: url('/assets/new-hero.webp'); /* set your image path */
   background-position: center; /* adjust to show more of the top */
   background-repeat: no-repeat;
   background-size: cover;
   object-fit: cover;
 }
-@media (max-width: 650px) {
+@media (min-width: 601px) and (max-width: 650) {
   .hero-banner {
-    background-image: url('/assets//hero.webp');
+    background-position: 70% 30%;  
+  }
+}
+@media (max-width: 600px) {
+  .hero-banner {
+    background-position: 60% 40%;  
   }
 }
 .promo-sticker-bar {
