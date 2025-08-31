@@ -34,7 +34,7 @@
   position: absolute;
   bottom: 0;
   width: 100%;
-  background: rgba(0, 0, 0, 0.6);
+  background: rgba(154, 167, 0, 0.6);
   color: #fff;
   text-align: center;
   padding: 1rem 0;
@@ -47,5 +47,11 @@
 @media (min-width: 1100px) {
   .featured-rooms-section {
     margin-left: -300px;
+  }
+}
+
+@media (min-width: 1100px) and (max-width: 1155px) {
+  .featured-rooms-section {
+    margin-left: 15px;
   }
 }

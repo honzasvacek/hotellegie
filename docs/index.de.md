@@ -10,7 +10,7 @@ hide:
 <div class="hero-banner">
   <div class="hero-content">
     <h1>Willkommen im Hotel Claris</h1>
-    <p>Luxus • Komfort • Lage</p>
+    <p>Stadtzentrum • Komfort • Tradition</p>
   </div>
   <div class="mobile-reserve-btn-wrapper">
     <a href="#booking-title" class="mobile-reserve-btn">Jetzt buchen</a>
