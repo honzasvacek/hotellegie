@@ -108,7 +108,7 @@ extra:
       github:
         name: Github
         checked: true
-
+use_directory_urls: true
 plugins:
   - glightbox:
       effect: zoom
