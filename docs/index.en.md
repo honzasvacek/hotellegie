@@ -72,21 +72,21 @@ Comfort rooms are completely renovated, modern and comfortably equipped.
 Some of them offer a beautiful view of the Prague skyline.
 
 <section class="featured-rooms-section">
-  <div class="featured-room" onclick="location.href='02.rooms/#single-rooms-standard-comfort'">
+  <div class="featured-room" onclick="location.href='02.rooms/#standard-single-room'">
     <img src="/assets/fotky_hotelu/jednoluzko.webp" alt="Single Room Apartment">
     <div class="room-label">Single Rooms</div>
   </div>
-  <div class="featured-room" onclick="location.href='02.rooms/#double-rooms-standard-comfort'">
+  <div class="featured-room" onclick="location.href='02.rooms/#standard-double-room'">
     <img src="/assets/fotky_hotelu/dvojluzko.webp" alt="Double Room Apartment">
     <div class="room-label">Double Rooms</div>
   </div>
 </section>
 <section class="featured-rooms-section">
-  <div class="featured-room" onclick="location.href='02.rooms/#triple-rooms'">
+  <div class="featured-room" onclick="location.href='02.rooms/#standard-double-room-with-extra-bed'">
     <img src="/assets/fotky_hotelu/trojluzko.webp" alt="Single Room Apartment">
     <div class="room-label">Triple Rooms</div>
   </div>
-  <div class="featured-room" onclick="location.href='02.rooms/#quadruple-rooms'">
+  <div class="featured-room" onclick="location.href='02.rooms/#standard-triple-room-with-extra-bed'">
     <img src="/assets/fotky_hotelu/ctyrluzko.webp" alt="Double Room Apartment">
     <div class="room-label">Quadruple Rooms</div>
   </div>

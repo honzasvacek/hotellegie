@@ -72,21 +72,21 @@ Die Komfortzimmer sind komplett renoviert und modern und komfortabel ausgestatte
 Einige von ihnen bieten einen wunderschönen Blick auf das Prager Panorama.
 
 <section class="featured-rooms-section">
-  <div class="featured-room" onclick="location.href='02.rooms/#einzelzimmer-standard-komfort'">
+  <div class="featured-room" onclick="location.href='02.rooms/#standard-einzelzimmer'">
     <img src="/assets/fotky_hotelu/jednoluzko.webp" alt="Einzelzimmer Apartment">
     <div class="room-label">Einzelzimmer</div>
   </div>
-  <div class="featured-room" onclick="location.href='02.rooms/#doppelzimmer-standard-komfort'">
+  <div class="featured-room" onclick="location.href='02.rooms/#standard-doppelzimmer'">
     <img src="/assets/fotky_hotelu/dvojluzko.webp" alt="Doppelzimmer Apartment">
     <div class="room-label">Doppelzimmer</div>
   </div>
 </section>
 <section class="featured-rooms-section">
-  <div class="featured-room" onclick="location.href='02.rooms/#dreibettzimmer'">
+  <div class="featured-room" onclick="location.href='02.rooms/#standard-doppelzimmer-mit-zustellbett'">
     <img src="/assets/fotky_hotelu/trojluzko.webp" alt="Einzelzimmer Apartment">
     <div class="room-label">Dreibettzimmer</div>
   </div>
-  <div class="featured-room" onclick="location.href='02.rooms/#vierbettzimmer'">
+  <div class="featured-room" onclick="location.href='02.rooms/#standard-dreibettzimmer-mit-zustellbett'">
     <img src="/assets/fotky_hotelu/ctyrluzko.webp" alt="Doppelzimmer Apartment">
     <div class="room-label">Vierbettzimmer</div>
   </div>

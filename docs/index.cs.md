@@ -80,21 +80,21 @@ Některé z nich nabízejí překrásný výhled na pražské panorama.
 
 <!-- START: Room Cards -->
 <section class="featured-rooms-section">
-  <div class="featured-room" onclick="location.href='02.rooms/#jednoluzkove-pokoje-standard-a-komfort'">
+  <div class="featured-room" onclick="location.href='02.rooms/#jednoluzkovy-standard'">
     <img src="/assets/fotky_hotelu/jednoluzko.webp" alt="Jednolůžkový apartmán">
     <div class="room-label">Jednolůžkové</div>
   </div>
-  <div class="featured-room" onclick="location.href='02.rooms/#dvouluzkove-pokoje-standard-a-komfort'">
+  <div class="featured-room" onclick="location.href='02.rooms/#dvouluzkovy-standard'">
     <img src="/assets/fotky_hotelu/dvojluzko.webp" alt="Dvoulůžkový apartmán">
     <div class="room-label">Dvoulůžkové</div>
   </div>
 </section>
 <section class="featured-rooms-section">
-  <div class="featured-room" onclick="location.href='02.rooms/#triluzkove-pokoje'">
+  <div class="featured-room" onclick="location.href='02.rooms/#dvouluzkovy-standard-s-pristylkou'">
     <img src="/assets/fotky_hotelu/trojluzko.webp" alt="Jednolůžkový apartmán">
     <div class="room-label">Třílůžkové</div>
   </div>
-  <div class="featured-room" onclick="location.href='02.rooms/#ctyrluzkove-pokoje'">
+  <div class="featured-room" onclick="location.href='02.rooms/#triluzkovy-standard-s-pristylkou'">
     <img src="/assets/fotky_hotelu/ctyrluzko.webp" alt="Dvoulůžkový apartmán">
     <div class="room-label">Čtyřlůžkové</div>
   </div>
