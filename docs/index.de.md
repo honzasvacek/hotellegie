@@ -72,22 +72,22 @@ Die Komfortzimmer sind komplett renoviert und modern und komfortabel ausgestatte
 Einige von ihnen bieten einen wunderschönen Blick auf das Prager Panorama.
 
 <section class="featured-rooms-section">
-  <div class="featured-room" onclick="location.href='02.rooms/#standard-einzelzimmer'">
-    <img src="/assets/fotky_hotelu/jednoluzko.webp" alt="Einzelzimmer Apartment">
+  <div class="featured-room" onclick="location.href='02.rooms/#komfort-einzelzimmer'">
+    <img src="/assets/fotky_pokoju/1KOM.webp" alt="Einzelzimmer Apartment">
     <div class="room-label">Einzelzimmer</div>
   </div>
-  <div class="featured-room" onclick="location.href='02.rooms/#standard-doppelzimmer'">
-    <img src="/assets/fotky_hotelu/dvojluzko.webp" alt="Doppelzimmer Apartment">
+  <div class="featured-room" onclick="location.href='02.rooms/#komfort-doppelzimmer'">
+    <img src="/assets/fotky_pokoju/2KOM.webp" alt="Doppelzimmer Apartment">
     <div class="room-label">Doppelzimmer</div>
   </div>
 </section>
 <section class="featured-rooms-section">
-  <div class="featured-room" onclick="location.href='02.rooms/#standard-doppelzimmer-mit-zustellbett'">
-    <img src="/assets/fotky_hotelu/trojluzko.webp" alt="Einzelzimmer Apartment">
+  <div class="featured-room" onclick="location.href='02.rooms/#komfort-doppelzimmer-mit-zustellbett'">
+    <img src="/assets/fotky_pokoju/3KOM.webp" alt="Einzelzimmer Apartment">
     <div class="room-label">Dreibettzimmer</div>
   </div>
-  <div class="featured-room" onclick="location.href='02.rooms/#standard-dreibettzimmer-mit-zustellbett'">
-    <img src="/assets/fotky_hotelu/ctyrluzko.webp" alt="Doppelzimmer Apartment">
+  <div class="featured-room" onclick="location.href='02.rooms/#komfort-dreibettzimmer-mit-zustellbett'">
+    <img src="/assets/fotky_pokoju/4KOM.webp" alt="Doppelzimmer Apartment">
     <div class="room-label">Vierbettzimmer</div>
   </div>
 </section>
@@ -103,8 +103,8 @@ Sie können online über unser Reservierungsformular reservieren oder uns kontak
 
 --8<-- "booking-form.de.html"
 
-- :fontawesome-solid-phone: **Reservierung:** +420 775 712 882 
-- :fontawesome-solid-phone: **Rezeption:** +420 775 564 968 
-- :fontawesome-regular-envelope: **E-Mail:** reservation@petrs.cz
+- :fontawesome-solid-phone: **Reservierung:** <a href="tel:+420775712882" target="_blank">+420 775 712 882</a> 
+- :fontawesome-solid-phone: **Rezeption:** <a href="tel:+420775564968 " target="_blank">+420 775 564 968</a> 
+- :fontawesome-regular-envelope: **E-Mail:**  <a href="mailto:reservation@petrs.cz" target="_blank">reservation@petrs.cz</a>
 
 Wir freuen uns auf Ihren Besuch!

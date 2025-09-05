@@ -69,32 +69,32 @@ We offer accommodation in 55 rooms in two categories - Standard and Comfort.
 
 Comfort rooms are completely renovated, modern and comfortably equipped. 
 
-Some of them offer a beautiful view of the Prague skyline.
+Some of them offer a beautiful view of the Prague panorama.
 
 <section class="featured-rooms-section">
-  <div class="featured-room" onclick="location.href='02.rooms/#standard-single-room'">
-    <img src="/assets/fotky_hotelu/jednoluzko.webp" alt="Single Room Apartment">
+  <div class="featured-room" onclick="location.href='02.rooms/#comfort-single-room'">
+    <img src="/assets/fotky_pokoju/1KOM.webp" alt="Single Room Apartment">
     <div class="room-label">Single Rooms</div>
   </div>
-  <div class="featured-room" onclick="location.href='02.rooms/#standard-double-room'">
-    <img src="/assets/fotky_hotelu/dvojluzko.webp" alt="Double Room Apartment">
+  <div class="featured-room" onclick="location.href='02.rooms/#comfort-double-room'">
+    <img src="/assets/fotky_pokoju/2KOM.webp" alt="Double Room Apartment">
     <div class="room-label">Double Rooms</div>
   </div>
 </section>
 <section class="featured-rooms-section">
-  <div class="featured-room" onclick="location.href='02.rooms/#standard-double-room-with-extra-bed'">
-    <img src="/assets/fotky_hotelu/trojluzko.webp" alt="Single Room Apartment">
+  <div class="featured-room" onclick="location.href='02.rooms/#comfort-double-room-with-extra-bed'">
+    <img src="/assets/fotky_pokoju/3KOM.webp" alt="Single Room Apartment">
     <div class="room-label">Triple Rooms</div>
   </div>
-  <div class="featured-room" onclick="location.href='02.rooms/#standard-triple-room-with-extra-bed'">
-    <img src="/assets/fotky_hotelu/ctyrluzko.webp" alt="Double Room Apartment">
+  <div class="featured-room" onclick="location.href='02.rooms/#comfort-triple-room-with-extra-bed'">
+    <img src="/assets/fotky_pokoju/4KOM.webp" alt="Double Room Apartment">
     <div class="room-label">Quadruple Rooms</div>
   </div>
 </section>
 
 We accommodate both individuals and groups.
 
-We also offer rental of lounges and a banquet hall.
+We also offer rental of lounges and a dance hall.
 
 <div id="booking-title">
 You can book online using our booking form or contact us:
@@ -102,8 +102,8 @@ You can book online using our booking form or contact us:
 
 --8<-- "booking-form.en.html"
 
-- :fontawesome-solid-phone: **Reservation:** +420 775 712 882 
-- :fontawesome-solid-phone: **Reception:** +420 775 564 968 
-- :fontawesome-regular-envelope: **E-mail:** reservation@petrs.cz
+- :fontawesome-solid-phone: **Reservation:**  <a href="tel:+420775712882" target="_blank">+420 775 712 882</a> 
+- :fontawesome-solid-phone: **Reception:** <a href="tel:+420775564968 " target="_blank">+420 775 564 968</a> 
+- :fontawesome-regular-envelope: **E-mail:** <a href="mailto:reservation@petrs.cz" target="_blank">reservation@petrs.cz</a>
 
 We look forward to your visit!

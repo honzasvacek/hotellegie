@@ -80,22 +80,22 @@ Některé z nich nabízejí překrásný výhled na pražské panorama.
 
 <!-- START: Room Cards -->
 <section class="featured-rooms-section">
-  <div class="featured-room" onclick="location.href='02.rooms/#jednoluzkovy-standard'">
-    <img src="/assets/fotky_hotelu/jednoluzko.webp" alt="Jednolůžkový apartmán">
+  <div class="featured-room" onclick="location.href='02.rooms/#jednoluzkovy-komfort'">
+    <img src="/assets/fotky_pokoju/1KOM.webp" alt="Jednolůžkový apartmán">
     <div class="room-label">Jednolůžkové</div>
   </div>
-  <div class="featured-room" onclick="location.href='02.rooms/#dvouluzkovy-standard'">
-    <img src="/assets/fotky_hotelu/dvojluzko.webp" alt="Dvoulůžkový apartmán">
+  <div class="featured-room" onclick="location.href='02.rooms/#dvouluzkovy-komfort'">
+    <img src="/assets/fotky_pokoju/2KOM.webp" alt="Dvoulůžkový apartmán">
     <div class="room-label">Dvoulůžkové</div>
   </div>
 </section>
 <section class="featured-rooms-section">
-  <div class="featured-room" onclick="location.href='02.rooms/#dvouluzkovy-standard-s-pristylkou'">
-    <img src="/assets/fotky_hotelu/trojluzko.webp" alt="Jednolůžkový apartmán">
+  <div class="featured-room" onclick="location.href='02.rooms/#dvouluzkovy-komfort-s-pristylkou'">
+    <img src="/assets/fotky_pokoju/3KOM.webp" alt="Jednolůžkový apartmán">
     <div class="room-label">Třílůžkové</div>
   </div>
-  <div class="featured-room" onclick="location.href='02.rooms/#triluzkovy-standard-s-pristylkou'">
-    <img src="/assets/fotky_hotelu/ctyrluzko.webp" alt="Dvoulůžkový apartmán">
+  <div class="featured-room" onclick="location.href='02.rooms/#triluzkovy-komfort-s-pristylkou'">
+    <img src="/assets/fotky_pokoju/4KOM.webp" alt="Dvoulůžkový apartmán">
     <div class="room-label">Čtyřlůžkové</div>
   </div>
 </section>
@@ -112,9 +112,9 @@ Rezervaci můžete provést online pomocí našeho rezervačního formuláře, n
 
 --8<-- "booking-form.cs.html"
 
-- :fontawesome-solid-phone: **Rezervace:** +420 775 712 882 
-- :fontawesome-solid-phone: **Recepce:** +420 775 564 968 
-- :fontawesome-regular-envelope: **E-mail:** reservation@petrs.cz
+- :fontawesome-solid-phone: **Rezervace:**  <a href="tel:+420775712882" target="_blank">+420 775 712 882</a> 
+- :fontawesome-solid-phone: **Recepce:** <a href="tel:+420775564968 " target="_blank">+420 775 564 968</a> 
+- :fontawesome-regular-envelope: **E-mail:** <a href="mailto:reservation@petrs.cz" target="_blank">reservation@petrs.cz</a>
 
 Těšíme se na Vaši návštěvu!
 

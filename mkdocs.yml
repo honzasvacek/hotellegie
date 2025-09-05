@@ -51,6 +51,7 @@ theme:
       accent: custom
 
 extra_css:
+  - https://unpkg.com/swiper@11/swiper-bundle.min.css
   - assets/stylesheets/user-swiping-gallery.css
   - assets/stylesheets/gallery-all-photos.css
   - assets/stylesheets/swiping-gallery.css
@@ -60,13 +61,12 @@ extra_css:
   - assets/stylesheets/reservationform.css
   - assets/stylesheets/hero.css
   - assets/stylesheets/hotelrooms.css
-  - https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css
 extra_javascript:
+  - https://unpkg.com/swiper@11/swiper-bundle.min.js
   - javascripts/disable-translation.js
   - javascripts/user-swiping-gallery.js
   - javascripts/swiping-gallery.js
   - javascripts/reservation.js
-  - https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js
 markdown_extensions:
   - attr_list
   - pymdownx.emoji:
