@@ -1,0 +1,49 @@
+/* Hero  Useless delte*/
+.hero-reservation {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+.hero-reservation img {
+  width: 100%;
+  filter: brightness(70%);
+}
+
+.hero-button {
+  position: absolute;
+  bottom: 20%;
+  left: 50%;
+  transform: translateX(-50%);
+  background: #ff4081;
+  padding: 1rem 2rem;
+  font-size: 1.5rem;
+  border-radius: 10px;
+  text-decoration: none;
+  color: white;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+  
+  /* Text handling */
+  text-align: center;
+  white-space: nowrap;        /* Prevent wrapping for short text */
+  max-width: 90vw;            /* Prevent too-wide buttons */
+  min-width: 200px;           /* Ensure minimum readable width */
+  word-wrap: break-word;      /* Break long words if needed */
+  line-height: 1.4;           /* Improve readability */
+  
+  /* Responsive behavior */
+  @media (max-width: 480px) {
+    display: none;            /* Hide button on very small screens */
+  }
+  
+  @media (max-width: 768px) and (min-width: 481px) {
+    position: static;         /* Remove absolute positioning */
+    transform: none;          /* Remove transform */
+    margin: 0 auto;           /* Center horizontally */
+    display: block;           /* Make it a block element */
+    font-size: 1.2rem;        /* Smaller text on medium mobile */
+    padding: 0.8rem 1.5rem;   /* Adjust padding */
+    min-width: 180px;         /* Slightly smaller minimum */
+    width: fit-content;       /* Only as wide as content */
+  }
+}
