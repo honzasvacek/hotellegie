@@ -1,0 +1,23 @@
+.gallery-slider {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+.gallery-slider img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+.slider-controls {
+  margin-top: 0.5rem;
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  font-weight: bold;
+}
+.slider-controls button {
+  background: #ddd;
+  border: none;
+  padding: 0.4rem 0.8rem;
+  cursor: pointer;
+  border-radius: 4px;
+}
