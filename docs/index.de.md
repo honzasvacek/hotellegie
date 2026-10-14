@@ -103,7 +103,6 @@ Sie können online über unser Reservierungsformular reservieren oder uns kontak
 
 --8<-- "booking-form.de.html"
 
-- :fontawesome-solid-phone: **Reservierung:** <a href="tel:+420775712882" target="_blank">+420 775 712 882</a> 
 - :fontawesome-solid-phone: **Rezeption:** <a href="tel:+420775564968 " target="_blank">+420 775 564 968</a> 
 - :fontawesome-regular-envelope: **E-Mail:**  <a href="mailto:reservation@petrs.cz" target="_blank">reservation@petrs.cz</a>
 

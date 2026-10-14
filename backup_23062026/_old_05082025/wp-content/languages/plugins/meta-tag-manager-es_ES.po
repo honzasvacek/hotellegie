@@ -1,0 +1,442 @@
+# Translation of Plugins - Meta Tag Manager - Development (trunk) in Spanish (Spain)
+# This file is distributed under the same license as the Plugins - Meta Tag Manager - Development (trunk) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2023-12-09 14:39:16+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/4.0.0\n"
+"Language: es\n"
+"Project-Id-Version: Plugins - Meta Tag Manager - Development (trunk)\n"
+
+#. Author of the plugin
+#: meta-tag-manager.php
+msgid "Pixelite"
+msgstr "Pixelite"
+
+#. Plugin URI of the plugin
+#: meta-tag-manager.php
+msgid "https://metatagmanager.com"
+msgstr "https://metatagmanager.com"
+
+#: classes/schema-admin.php:12
+msgid "You must select a value in the %s field in the %s tab in order for schema markup to show up on your homepage."
+msgstr "Debes seleccionar un valor en el %s campo de %s la pestaña para que el marcado schema aparezca en tu página de inicio."
+
+#: admin/admin-modals.php:143 admin/admin-modals.php:199
+#: admin/mtm-update.php:31
+msgid "Dismiss"
+msgstr "Descartar"
+
+#: admin/settings/verify-sites.php:16
+msgid "Yandex"
+msgstr "Yandex"
+
+#: admin/settings/verify-sites.php:15
+msgid "Sitelock"
+msgstr "Sitelock"
+
+#: admin/settings/verify-sites.php:14
+msgid "Pintrest"
+msgstr "Pinterest"
+
+#: admin/settings/verify-sites.php:11
+msgid "Google Webmaster Tools"
+msgstr "Google Webmaster Tools"
+
+#: admin/settings/verify-sites.php:8
+msgid "Please paste the value in the %s part of the supplied meta tag, for example the bold part of %s."
+msgstr "Por favor, pega el valor en la parte %s de la meta etiqueta suministrada, por ejemplo la parte en negrita de %s."
+
+#: admin/settings/verify-sites.php:7
+msgid "Don't see the site you want to verify with here? You can always manually generate tags in the %s tab above."
+msgstr "¿No ves aquí el sitio con el que quieres verificar? Siempre puedes generar etiquetas manualmente en la pestaña %s de arriba."
+
+#: admin/settings/schema.php:259 admin/settings/schema.php:263
+msgid "Learn more"
+msgstr "Más información"
+
+#: admin/settings/schema.php:264
+msgid "Enable or Disable"
+msgstr "Activar o desactivar"
+
+#: admin/settings/schema.php:246
+msgid "Add URL"
+msgstr "Añadir URL"
+
+#: admin/settings/schema.php:196
+msgid "Custom URL"
+msgstr "URL personalizada"
+
+#: admin/settings/schema.php:194
+msgid "Contact"
+msgstr "Contacto"
+
+#: admin/settings/schema.php:194
+msgid "%s Page"
+msgstr "%s página"
+
+#: admin/settings/schema.php:133 classes/schema-admin.php:12
+msgid "This website represents a"
+msgstr "Esta web representa una"
+
+#: admin/settings/schema.php:161
+msgid "Name of Person"
+msgstr "Nombre de la persona"
+
+#: admin/settings/schema.php:134 admin/settings/schema.php:139
+msgid "General/Other"
+msgstr "General/otro"
+
+#: admin/settings/schema.php:167
+msgid "Organization Name"
+msgstr "Nombre de la organización"
+
+#: admin/settings/schema.php:203
+msgid "Contact Email"
+msgstr "Correo electrónico de contacto"
+
+#: admin/settings/schema.php:202
+msgid "Contact Phone"
+msgstr "Teléfono de contacto"
+
+#: admin/settings/schema.php:201
+msgid "country code"
+msgstr "código del país"
+
+#: admin/settings/schema.php:182
+msgid "Contact Information"
+msgstr "Información de contacto"
+
+#: admin/settings/schema.php:71
+msgid "Dentist"
+msgstr "Dentista"
+
+#: admin/settings/schema.php:22
+msgid "High School"
+msgstr "Escuela secundaria"
+
+#: admin/settings/schema.php:21
+msgid "Elementary School"
+msgstr "Escuela primaria"
+
+#: admin/settings/schema.php:20
+msgid "College Or University"
+msgstr "Facultades o universidades"
+
+#: admin/settings/schema.php:14
+msgid "Airline"
+msgstr "Aerolínea"
+
+#: admin/settings/schema.php:12 admin/settings/schema.php:168
+msgid "Organization"
+msgstr "Organización"
+
+#: admin/settings/schema.php:10
+msgid "Person"
+msgstr "Persona"
+
+#: admin/settings/open-graph.php:71
+msgid "Creator Username"
+msgstr "Nombre de usuario del creador"
+
+#: admin/mtm-update.php:31 admin/settings/open-graph.php:58
+msgid "Learn More"
+msgstr "Más información"
+
+#: admin/settings/open-graph.php:18
+msgid "Enable Open Graph Features"
+msgstr "Habilitar las características de Open Graph"
+
+#: admin/settings/open-graph.php:31 admin/settings/schema.php:130
+msgid "General Information"
+msgstr "Información general"
+
+#: admin/settings/open-graph.php:15
+msgid "The settings below are specific to the home page of your website."
+msgstr "Los siguientes ajustes son específicos de la página de inicio de tu web."
+
+#: admin/settings/schema.php:75
+msgid "Pharmacy"
+msgstr "Farmacia"
+
+#: admin/settings/schema.php:72
+msgid "Diagnostic Lab"
+msgstr "Laboratorio de diagnósticos"
+
+#: admin/settings/schema.php:73
+msgid "Hospital"
+msgstr "Hospital"
+
+#: admin/settings/schema.php:25
+msgid "School"
+msgstr "Escuela"
+
+#: admin/settings/schema.php:24
+msgid "Preschool"
+msgstr "Jardín de infancia"
+
+#: admin/settings/schema.php:15
+msgid "Consortium"
+msgstr "Consorcio"
+
+#: admin/settings/open-graph.php:69
+msgid "Website Username"
+msgstr "Nombre de usuario de la web"
+
+#: admin/settings/open-graph.php:68 admin/settings/open-graph.php:70
+msgid "This is optional and will be ignored if left blank."
+msgstr "Esto es opcional y se ignorará si se deja en blanco."
+
+#: admin/settings/open-graph.php:68
+msgid "@username on twitter.com for this website or comapny."
+msgstr "@nombredeusuario en twitter.com para esta web o empresa."
+
+#: admin/settings/open-graph.php:34
+msgid "Website Name"
+msgstr "Nombre de la web"
+
+#: admin/settings/open-graph.php:27 admin/settings/open-graph.php:28
+#: admin/settings/open-graph.php:29
+msgid "Test Open Graph Settings (%s)"
+msgstr "Ajustes de prueba de Open Graph (%s)"
+
+#: admin/settings/open-graph.php:35
+msgid "Website Description"
+msgstr "Descripción de la web"
+
+#: admin/settings/open-graph.php:40 admin/settings/schema.php:149
+msgid "Logo"
+msgstr "Logo"
+
+#: admin/settings/open-graph.php:44 admin/settings/schema.php:153
+msgid "Select Image"
+msgstr "Seleccionar imagen"
+
+#: admin/settings/schema.php:109
+msgid "Chooase a site type"
+msgstr "Elige un tipo de sitio"
+
+#: admin/settings/open-graph.php:70
+msgid "This card will only be shown on the front-page."
+msgstr "Esta tarjeta solo se mostrará en la portada."
+
+#: admin/settings/open-graph.php:51
+msgid "Generate Open Graph for Posts/Pages?"
+msgstr "¿Generar Open Graph para entradas/páginas?"
+
+#: admin/settings/open-graph.php:50
+msgid "If enabled, all posts, pages and custom post types will have default open graph meta tags generated."
+msgstr "Si se activa, todas las entradas, páginas y tipos de contenido personalizados tendrán meta etiquetas de open graph generadas por defecto."
+
+#: admin/settings/open-graph.php:46 admin/settings/schema.php:155
+msgid "The image size must be at least %s and one of the following formats : %s"
+msgstr "El tamaño de la imagen debe ser al menos %s y de uno de los siguientes formatos : %s"
+
+#: admin/settings/general.php:17
+msgid "choose one or more %s"
+msgstr "elige uno o más %s"
+
+#: admin/settings/general.php:8 admin/settings/general.php:17
+msgid "post types"
+msgstr "tipos de entrada"
+
+#: admin/mtm-update.php:29 admin/mtm-update.php:39
+msgid "Settings Page"
+msgstr "Página de ajustes"
+
+#: admin/mtm-admin-settings.php:36
+msgid "Pro Features!"
+msgstr "¡Características Pro!"
+
+#: admin/mtm-admin-settings.php:31
+msgid "Open Graph"
+msgstr "Open Graph"
+
+#: admin/functions.php:87
+msgid "Yes"
+msgstr "Sí"
+
+#: admin/functions.php:87
+msgid "No"
+msgstr "No"
+
+#. Author URI of the plugin
+#: meta-tag-manager.php
+msgid "https://pixelite.com/?utm_source=plugin-header&utm_medium=plugin&utm_campaign=plugin"
+msgstr "https://pixelite.com/?utm_source=plugin-header&utm_medium=plugin&utm_campaign=plugin"
+
+#. Description of the plugin
+#: meta-tag-manager.php
+msgid "A simple plugin to manage meta tags and other meta data that appear on aread of your site or individual posts. This can be used for verifiying google adding open graph tags, SEO meta and more."
+msgstr "Un plugin sencillo para gestionar las meta etiquetas y otros metadatos que aparecen en las áreas de tu sitio o en entradas individuales. Se puede utilizar para verificar que Google añade etiquetas Open Graph, meta SEO y mucho más."
+
+#: admin/settings/custom-meta-tags.php:7
+msgid "Certain tag values for the \"name\" type such as %s cannot be repeated, and the last duplicate tag will take precendence unless there is a tag defined for the specific post type being viewed."
+msgstr "Ciertos valores de etiquetas para el tipo «nombre», como %s, no pueden repetirse y la última etiqueta duplicada tendrá prioridad, salvo que haya una etiqueta definida para el tipo de contenido específico que se está viendo."
+
+#: admin/mtm-tag-admin.php:43
+msgid "Other possible values"
+msgstr "Otros valores posibles"
+
+#: admin/mtm-tag-admin.php:42
+msgid "Common values"
+msgstr "Valores comunes"
+
+#: admin/mtm-builder.php:229
+msgid "Taxonomies"
+msgstr "Taxonomías"
+
+#: admin/mtm-builder.php:221
+msgid "Front Page"
+msgstr "Portada"
+
+#: admin/mtm-builder.php:220
+msgid "All Pages"
+msgstr "Todas las páginas"
+
+#: admin/mtm-builder.php:149
+msgid "Where to display this tag"
+msgstr "Dónde mostrar esta etiqueta"
+
+#: admin/mtm-builder.php:142
+msgid "%s Attribute"
+msgstr "Atributo %s"
+
+#: admin/mtm-builder.php:128
+msgid "%s Value"
+msgstr "Valor %s"
+
+#: admin/mtm-builder.php:116
+msgid "Tag Type"
+msgstr "Tipo de etiqueta"
+
+#: admin/settings/sidebar.php:27 admin/settings/sidebar.php:31
+msgid "Need Help?"
+msgstr "¿Necesitas ayuda?"
+
+#: admin/settings/sidebar.php:5 admin/settings/sidebar.php:9
+msgid "About This Plugin"
+msgstr "Acerca de este plugin"
+
+#: admin/mtm-admin-settings.php:30
+msgid "General Options"
+msgstr "Opciones generales"
+
+#: admin/settings/sidebar.php:17
+msgid "Please leave us a %s review on %s to show your support and help us keep making this plugin better!"
+msgstr "¡Por favor, déjanos una valoración de %s en %s para mostrar tu apoyo y ayudarnos a seguir haciendo este plugin mejor!"
+
+#: admin/mtm-builder.php:224
+msgid "Post Types"
+msgstr "Tipos de contenido"
+
+#: admin/settings/custom-meta-tags.php:6
+msgid "You can also enter a reference name at the top of each field card (something to help you remember the meta tag) and then enter the values below it that you want the meta tag to hold."
+msgstr "También puedes introducir un nombre de referencia en la parte superior de la tarjeta de cada campo (algo que te ayude a recordar la etiqueta meta) y luego introducir debajo los valores que quieres que tenga la etiqueta meta."
+
+#: admin/settings/general.php:7
+msgid "Post Type Support"
+msgstr "Compatibilidad con tipos de contenidos"
+
+#: admin/settings/custom-meta-tags.php:5
+msgid "Use the meta tag builder to create meta tags which will be used on your site. You can choose what kind of meta tag to display, as well as where to display them such as on all your pages, just the home page or specific post types and taxonomies."
+msgstr "Usa el constructor de etiquetas meta para crear las etiquetas meta que se usarán en tu sitio. Puedes elegir qué tipo de etiqueta meta mostrar, así como dónde mostrarlas, como en todas tus páginas, solo en la página de inicio o en tipos de contenido y taxonomías específicas."
+
+#: admin/settings/custom-meta-tags.php:8
+msgid "For adding meta tags to specific post types, please click on the 'General Options' tab above."
+msgstr "Para añadir etiquetas meta a tipos de contenido específicos, por favor, haz clic en la pestaña «Opciones generales» de arriba."
+
+#: admin/mtm-admin-settings.php:29 admin/settings/open-graph.php:16
+#: admin/settings/open-graph.php:65 admin/settings/verify-sites.php:7
+msgid "Custom Meta Tags"
+msgstr "Etiquetas meta personalizadas"
+
+#: admin/settings/sidebar.php:5 admin/settings/sidebar.php:27
+msgid "Toggle panel: %s"
+msgstr "Cambiar al panel: %s"
+
+#: admin/settings/sidebar.php:13
+msgid "This plugin was developed by %s."
+msgstr "Este plugin ha sido desarrollado por %s."
+
+#: admin/settings/sidebar.php:35
+msgid "Please visit our %s if you have any questions."
+msgstr "Por favor, visita nuestro %s si tienes alguna pregunta."
+
+#: admin/mtm-builder.php:36
+msgid "No tags added yet, click here or on the button below to add one!"
+msgstr "Aún no se han añadido etiquetas. ¡Haz clic aquí o en el botón de abajo para añadir una!"
+
+#: admin/mtm-builder.php:46 admin/mtm-builder.php:132
+msgid "choose a value or type in a custom one..."
+msgstr "elige un valor o escribe uno personalizado..."
+
+#: admin/mtm-builder.php:56
+msgid "Add Meta Tag"
+msgstr "Añadir una etiqueta meta"
+
+#: admin/mtm-builder.php:74
+msgid "Custom Meta Tag"
+msgstr "Etiqueta meta personalizada"
+
+#: admin/mtm-builder.php:75
+msgid "Custom Meta Tag Reference"
+msgstr "Referencia de la etiqueta meta personalizada"
+
+#: admin/mtm-builder.php:78
+msgid "optional reference name"
+msgstr "nombre opcional de la referencia"
+
+#: admin/mtm-builder.php:108
+msgid "Remove Meta Tag"
+msgstr "Eliminar la etiqueta meta"
+
+#: admin/mtm-builder.php:118
+msgid "choose a tag type"
+msgstr " elige un tipo de etiqueta"
+
+#: admin/mtm-builder.php:143
+msgid "add content corresponding to the chosen tag type"
+msgstr "añade el contenido correspondiente al tipo de etiqueta elegido"
+
+#: admin/mtm-builder.php:162
+msgid "Close Meta Tag Options"
+msgstr "Cerrar las opciones de etiquetas meta"
+
+#: admin/settings/general.php:8
+msgid "Enable the meta tag builder on the edit pages of your selected %1$s below. This will allow you to create specific %1$s for specific %2$s on your site. Leave blank for all %1$s."
+msgstr "Activa a continuación el constructor de etiquetas meta en las páginas de edición de tus %1$s seleccionados. Esto te permitirá crear %1$s específicos para %2$s específicas en tu sitio. Déjalo en blanco para todos los %1$s."
+
+#: admin/settings/sidebar.php:36
+msgid "Support Forum"
+msgstr "Foro de soporte"
+
+#: admin/settings/schema.php:200
+msgid "Contact URL"
+msgstr "URL de contacto"
+
+#. Plugin Name of the plugin
+#: meta-tag-manager.php admin/mtm-admin-settings.php:25
+#: meta-tag-manager-admin.php:88 meta-tag-manager-admin.php:133
+msgid "Meta Tag Manager"
+msgstr "Gestor de Etiquetas Meta"
+
+#: admin/mtm-builder.php:77
+msgid "Reference Name"
+msgstr "Nombre de Referencia"
+
+#: admin/settings/open-graph.php:45 admin/settings/schema.php:154
+msgid "Remove"
+msgstr "Eliminar"
+
+#: admin/mtm-admin-settings.php:20 admin/settings/open-graph.php:83
+#: admin/settings/schema.php:336
+msgid "Save Changes"
+msgstr "Guardar los cambios"
+
+#: admin/mtm-admin-settings.php:8
+msgid "Settings saved."
+msgstr "Ajustes guardados."

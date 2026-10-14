@@ -15,7 +15,7 @@ hide:
   <div class="mobile-reserve-btn-wrapper">
     <a href="#booking-title" class="mobile-reserve-btn">Book now</a>
   </div>
-  <form id="hotelBookingForm" class="reservation-bar" data-lang="en-EN">
+  <form id="hotelBookingForm" class="reservation-bar" data-lang="en-US">
     <div class="promo-sticker-bar">
       <span>&#9432; Use code <strong>PRAHAVIP5</strong> for 5% off</span>
     </div>
@@ -102,7 +102,6 @@ You can book online using our booking form or contact us:
 
 --8<-- "booking-form.en.html"
 
-- :fontawesome-solid-phone: **Reservation:**  <a href="tel:+420775712882" target="_blank">+420 775 712 882</a> 
 - :fontawesome-solid-phone: **Reception:** <a href="tel:+420775564968 " target="_blank">+420 775 564 968</a> 
 - :fontawesome-regular-envelope: **E-mail:** <a href="mailto:reservation@petrs.cz" target="_blank">reservation@petrs.cz</a>
 

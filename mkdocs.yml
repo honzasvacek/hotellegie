@@ -67,6 +67,7 @@ extra_javascript:
   - javascripts/user-swiping-gallery.js
   - javascripts/swiping-gallery.js
   - javascripts/reservation.js
+  - javascripts/flags.js
 markdown_extensions:
   - attr_list
   - pymdownx.emoji:
@@ -122,13 +123,13 @@ plugins:
       languages:
         - locale: en
           default: true
-          name: 🇬🇧 English
+          name: English
           build: true
         - locale: cs
-          name: 🇨🇿 Česky
+          name: Česky
           build: true
         - locale: de 
-          name: 🇩🇪 Deutsch
+          name: Deutsch
           build: true
         
 
